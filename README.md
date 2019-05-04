@@ -1,8 +1,7 @@
-# gatsby-starter-typescript-plus
+# charlottebrf-dev
+A website to share more about my work as a developer. 
 
-> A starter kit for TypeScript-based Gatsby projects with sensible defaults.
-
-This is a starter kit for [Gatsby.js](https://www.gatsbyjs.org/) websites written in TypeScript. It includes the bare essentials for you to get started (styling, Markdown parsing, minimal toolset).
+Started using the ```gatsby-starter-typescript-plus``` starter kit, then customised. 
 
 ## Features
 
@@ -12,13 +11,11 @@ This is a starter kit for [Gatsby.js](https://www.gatsbyjs.org/) websites writte
 - Basic component structure
 - Styling with [emotion](https://emotion.sh/)
 
-## Geting started
+## Testing 
 
-Install this starter (assuming you have `gatsby-cli` installed) by running the following command:
+- Jest
+- React Testing Library
 
-```bash
-gatsby new project-name https://github.com/resir014/gatsby-starter-typescript-plus
-```
 
 ## Developing
 
