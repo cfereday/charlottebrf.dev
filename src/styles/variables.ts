@@ -1,11 +1,6 @@
 /* eslint-disable max-len */
 
 export const colors = {
-  brand: '#663399',
-  lilac: '#9d7cbf',
-  accent: '#ffb238',
-  success: '#37b635',
-  warning: '#ec1818',
   ui: {
     bright: '#e0d6eb',
     light: '#f5f3f7',
@@ -16,6 +11,12 @@ export const colors = {
     dark: 'hsla(270, 17.119554496%, 0%, 0.92)',
     copy: 'hsla(270, 15.797828016000002%, 0%, 0.88)',
     calm: 'rgba(0, 0, 0, 0.54)'
+  },
+  nordic: {
+    teal: '#8FBCBB',
+    turquoise: '#88C0D0',
+    lightBlue: '#81A1C1',
+    darkBlue: '#5E81AC'
   },
   white: '#fff',
   black: '#000'
