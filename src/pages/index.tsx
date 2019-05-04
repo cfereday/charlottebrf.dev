@@ -1,17 +1,25 @@
 import * as React from 'react'
 
-import Container from '../components/Container'
-import IndexLayout from '../layouts'
+import styled from 'styled-components'
 
 const IndexPage = () => (
-  <IndexLayout>
-    <Container>
-      <h1>Hi people</h1>
-      <div className="'column left" />
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-    </Container>
-  </IndexLayout>
+  <>
+    <Title>Hi people</Title>
+    <Column>
+      <img src="https://themes.gohugo.io/theme/hallo-hugo/images/portrait.jpg" className="portrait" alt="Portrait" />
+    </Column>
+    <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p>
+  </>
 )
+
+const Column = styled.div`
+  flex: 1;
+  text-align: end;
+`
+
+const Title = styled.h1`
+  color: red;
+`
 
 export default IndexPage
