@@ -1,5 +1,4 @@
-import { dimensions, fonts, colors, breakpoints } from './variables'
-import { getEmSize } from './mixins'
+import { fonts, colors } from './variables'
 
 export default `
   html {
@@ -10,11 +9,6 @@ export default `
   *::before,
   *::after {
     box-sizing: inherit;
-  }
-
-  html {
-    font-size: ${dimensions.fontSize.regular}px !important;
-    line-height: ${dimensions.lineHeight.regular} !important;
   }
 
   body {
@@ -88,25 +82,12 @@ export default `
     margin-bottom: .5rem;
     color: ${colors.black};
     font-weight: 600;
-    line-height: ${dimensions.lineHeight.heading};
     text-rendering: optimizeLegibility;
   }
 
   h1 {
     margin-top: 0;
-    font-size: ${dimensions.headingSizes.h1}rem;
-  }
 
-  h2 {
-    font-size: ${dimensions.headingSizes.h2}rem;
-  }
-
-  h3 {
-    font-size: ${dimensions.headingSizes.h3}rem;
-  }
-
-  h4, h5, h6 {
-    font-size: ${dimensions.headingSizes.h4}rem;
   }
 
   p {
@@ -152,7 +133,7 @@ export default `
       }
     }
 
-    @media (min-width: ${getEmSize(breakpoints.md)}em) {
+    @media () {
       padding-right: 5rem;
       padding-left: 1.25rem;
     }
