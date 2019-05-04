@@ -6,6 +6,8 @@ const StyledContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   width: auto;
+  display: flex;
+  margin-top: 20vh;
 `
 
 interface ContainerProps {
