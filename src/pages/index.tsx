@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { Helmet } from 'react-helmet'
-import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -12,7 +11,8 @@ import SubTitle from '../components/shared/SubTitle'
 import Column from '../components/shared/Column'
 import Paragraph from '../components/shared/Paragraph'
 import GlobalStyle from '../components/shared/GlobalStyle'
-import { NordicPalette } from '../styles/variables'
+import Links from '../components/shared/Links'
+import Contact from '../components/shared/Contact'
 
 library.add(faGithub, faTwitter, faLinkedin)
 
@@ -41,24 +41,5 @@ const IndexPage = () => (
     </Main>
   </>
 )
-
-
-const Links = styled.a`
-  transition: color 0.2s ease-out;
-  color: ${NordicPalette.snowStorm.white};
-  :hover {
-    color: ${NordicPalette.frost.darkBlue};
-  }
-`
-
-const Contact = styled.div`
-  margin-top: 2.5rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-
-  ${Links} {
-    margin-right: 1rem;
-  }
-`
 
 export default IndexPage
