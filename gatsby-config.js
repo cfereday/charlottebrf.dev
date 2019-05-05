@@ -37,7 +37,8 @@ module.exports = {
               quality: 90,
               linkImagesToOriginal: false
             }
-          }
+          },
+          'gatsby-plugin-styled-components'
         ]
       }
     },
