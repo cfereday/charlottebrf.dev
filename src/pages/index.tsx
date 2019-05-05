@@ -21,7 +21,8 @@ const IndexPage = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Charlottebrf.dev</title>
-      <link rel="icon" type="image/png" sizets="32x32" href="https://themes.gohugo.io//theme/hallo-hugo/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="https://themes.gohugo.io//theme/hallo-hugo/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="https://themes.gohugo.io//theme/hallo-hugo/favicon-16x16.png" />
     </Helmet>
     <Main>
       <GlobalStyle />

@@ -10,6 +10,10 @@ const Portrait = styled.img`
   height: auto;
   max-width: 300px;
   max-height: 300px;
+  
+   @media only screen and (max-width: 800px) {
+     margin: 3rem 0;
+   }
 `
 
 export default Portrait;
