@@ -8,6 +8,10 @@ const Paragraph = styled.p`
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 7vw;
+  }
 `
 
 export default Paragraph

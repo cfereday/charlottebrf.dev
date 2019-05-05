@@ -9,6 +9,10 @@ const SubTitle = styled.h2`
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 12vw;
+  }
 `
 
 export default SubTitle

@@ -9,6 +9,10 @@ const Contact = styled.div`
   ${Links} {
     margin-right: 1rem;
   }
+
+  @media only screen and (max-width: 800px) {
+    margin-bottom: 2rem;
+  }
 `
 
 export default Contact
