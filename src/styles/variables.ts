@@ -12,6 +12,7 @@ export const NordicPalette = {
     ash: '#4C566A'
   },
   snowStorm: {
+    white: '#fff',
     grey: '#D8DEE9',
     lightGrey: '#E5E9F0',
     opaque: '#ECEFF4'
