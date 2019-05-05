@@ -1,17 +1,18 @@
 import * as React from 'react'
 
 import styled, { createGlobalStyle } from 'styled-components'
-import { colors } from '../styles/variables'
+import { NordicPalette, fonts } from '../styles/variables'
 
 const IndexPage = () => (
   <Main>
     <GlobalStyle />
-    <Title>Hi people</Title>
     <Column left>
       <Portrait src="https://themes.gohugo.io/theme/hallo-hugo/images/portrait.jpg" alt="Portrait" />
     </Column>
     <Column right>
-      <Font>Welcome to your new Gatsby site.</Font>
+      <Title>Title</Title>
+      <SubTitle>Here is a subtitle</SubTitle>
+      <Paragraph>Here is some text</Paragraph>
     </Column>
   </Main>
 )
@@ -19,7 +20,7 @@ const IndexPage = () => (
 const Portrait = styled.img`
   box-sizing: border-box;
   border-radius: 50%;
-  border: 10px solid #fff;
+  border: 10px solid ${NordicPalette.snowStorm.opaque};
   margin: 2em 3em;
   width: 100%;
   height: auto;
@@ -29,7 +30,9 @@ const Portrait = styled.img`
 
 const GlobalStyle = createGlobalStyle`
   body { 
-  background-color: ${colors.nordic.teal};
+  background-color: ${NordicPalette.frost.teal};
+  font-family: ${fonts.sansSerif};
+  font-size: 16px
   }
 `
 
@@ -44,12 +47,35 @@ const Column = styled.div`
 `
 
 const Title = styled.h1`
-  color: ${colors.nordic.darkBlue};
+  color: ${NordicPalette.snowStorm.opaque};
+  display: block;
+  font-size: 144px;
+  font-weight: bold;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
 `
 
-const Font = styled.p`
-  font-family: Montserrat, sans-serif;
-  flex-wrap: wrap;
+const SubTitle = styled.h2`
+  color: ${NordicPalette.snowStorm.lightGrey};
+  display: block;
+  font-size: 48px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+`
+
+const Paragraph = styled.p`
+  color: ${NordicPalette.snowStorm.grey};
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 `
 
 export default IndexPage
