@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Column left>
       <Portrait src="https://themes.gohugo.io/theme/hallo-hugo/images/portrait.jpg" alt="Portrait" />
     </Column>
-    <Column>
+    <Column right>
       <Font>Welcome to your new Gatsby site.</Font>
     </Column>
   </Main>
