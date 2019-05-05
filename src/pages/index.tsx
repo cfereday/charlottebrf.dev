@@ -1,8 +1,5 @@
 import * as React from 'react'
 import { Helmet } from 'react-helmet'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import cf from '../media/headshot/cf.jpeg'
 import Main from '../components/shared/Main'
 import Portrait from '../components/shared/Portrait'
@@ -14,8 +11,6 @@ import GlobalStyle from '../components/shared/GlobalStyle'
 import Links from '../components/shared/Links'
 import Contact from '../components/shared/Contact'
 
-library.add(faGithub, faTwitter, faLinkedin)
-
 const IndexPage = () => (
   <>
     <Helmet>
@@ -23,6 +18,24 @@ const IndexPage = () => (
       <title>Charlottebrf.dev</title>
       <link rel="icon" type="image/png" sizes="32x32" href="https://themes.gohugo.io//theme/hallo-hugo/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="https://themes.gohugo.io//theme/hallo-hugo/favicon-16x16.png" />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/regular.css"
+        integrity="sha384-FKw7x8fCxuvzBwOJmhTJJsKzBl8dnN9e2R4+pXRfYoHivikuHkzWyhKWDSMcGNK8"
+        crossOrigin="anonymous"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css"
+        integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv"
+        crossOrigin="anonymous"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css"
+        integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq"
+        crossOrigin="anonymous"
+      />
     </Helmet>
     <Main>
       <GlobalStyle />
@@ -45,13 +58,13 @@ const IndexPage = () => (
         </Paragraph>
         <Contact>
           <Links href="https://github.com/charlottebrf" title="Github">
-            <FontAwesomeIcon icon={['fab', 'github']} />
+            <i className="fab fa-github" />
           </Links>
           <Links href="https://twitter.com/charlottebrf" title="Twitter">
-            <FontAwesomeIcon icon={['fab', 'twitter']} />
+            <i className="fab fa-twitter" />
           </Links>
           <Links href="https://www.linkedin.com/in/cfereday" title="LinkedIn">
-            <FontAwesomeIcon icon={['fab', 'linkedin']} />
+            <i className="fab fa-linkedin-in" />
           </Links>
         </Contact>
       </Column>
