@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Helmet } from 'react-helmet'
 import styled, { createGlobalStyle } from 'styled-components'
 import { NordicPalette, fonts } from '../styles/variables'
+import cf from '../media/headshot/cf.jpeg'
 
 const IndexPage = () => (
   <>
@@ -13,7 +14,7 @@ const IndexPage = () => (
     <Main>
       <GlobalStyle />
       <Column left>
-        <Portrait src="https://themes.gohugo.io/theme/hallo-hugo/images/portrait.jpg" alt="Portrait" />
+        <Portrait src={cf} alt="Portrait" />
       </Column>
       <Column right>
         <Title>Title</Title>
