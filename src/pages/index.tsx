@@ -29,9 +29,10 @@ const IndexPage = () => (
         <Portrait src={cf} alt="Portrait" />
       </Column>
       <Column right>
-        <Title>Title</Title>
-        <SubTitle>Here is a subtitle</SubTitle>
-        <Paragraph>Here is some text</Paragraph>
+        <Title>Charlotte Fereday</Title>
+        <SubTitle>Academic turned Developer</SubTitle>
+        <Paragraph>Full stack Developer at <Links href="https://www.thoughtworks.com/" title="ThoughtWorks">ThoughtWorks.</Links> Working hard to deliver the best quality code.</Paragraph>
+        <Paragraph>Passionate about finding new and innovative ways to make positive social impact through technology, education and open source projects.</Paragraph>
         <Contact>
           <Links href="https://github.com/charlottebrf" title="Github"><FontAwesomeIcon icon={['fab', 'github']} /></Links>
           <Links href="https://twitter.com/charlottebrf" title="Twitter"><FontAwesomeIcon icon={['fab', 'twitter']} /></Links>
