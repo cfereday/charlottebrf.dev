@@ -19,9 +19,6 @@ export const NordicPalette = {
   }
 }
 
-
-
-
 export const fonts = {
   sansSerif: `Montserrat,"Helvetica Neue","Segoe UI",Helvetica,Arial,sans-serif`
 }

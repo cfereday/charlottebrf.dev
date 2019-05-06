@@ -17,9 +17,9 @@ const IndexPage = () => (
         <Portrait src={cf} alt="Portrait" />
       </Column>
       <Column right>
-        <NavigationLink to="/profile">Profile</NavigationLink>
         <Title>Charlotte Fereday</Title>
         <SubTitle>Academic turned Developer</SubTitle>
+        <NavigationLink to="/profile">Profile</NavigationLink>
         <Paragraph>
           Full stack Developer at{' '}
           <Links href="https://www.thoughtworks.com/" title="ThoughtWorks">
