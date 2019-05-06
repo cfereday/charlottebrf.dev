@@ -4,7 +4,7 @@ import { NordicPalette } from '../../styles/variables'
 export const Title = styled.h1`
   color: ${NordicPalette.snowStorm.white};
   display: block;
-   font-size: 100px;
+  font-size: 100px;
   font-weight: bold;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;

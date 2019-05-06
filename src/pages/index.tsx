@@ -8,6 +8,7 @@ import { Links } from '../components/shared/Links'
 import { Column, Main } from '../components/shared/Main'
 import { Base } from '../layouts/base'
 import Contact from '../components/shared/Contact'
+import { NavigationLink } from '../components/shared/NavigationLink'
 
 const IndexPage = () => (
   <Base>
@@ -16,6 +17,7 @@ const IndexPage = () => (
         <Portrait src={cf} alt="Portrait" />
       </Column>
       <Column right>
+        <NavigationLink to="/profile">Profile</NavigationLink>
         <Title>Charlotte Fereday</Title>
         <SubTitle>Academic turned Developer</SubTitle>
         <Paragraph>
