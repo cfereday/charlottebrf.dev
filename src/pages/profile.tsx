@@ -29,7 +29,7 @@ const profile = () => (
           <NightParagraph>
             Consulting as an engineer on a variety of different projects. Pairing, TDD, Agile methodologies & much more.
           </NightParagraph>
-          <NightHeader4> International FX Startup</NightHeader4>
+          <NightHeader4> International FinTech Startup</NightHeader4>
           <NightParagraph>
             <ul>
               <li>
