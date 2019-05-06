@@ -1,17 +1,15 @@
 import styled from 'styled-components'
 import { NordicPalette } from '../../styles/variables'
 
-const Paragraph = styled.p`
+export const Paragraph = styled.p`
   color: ${NordicPalette.snowStorm.grey};
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 
   @media only screen and (max-width: 800px) {
     font-size: 7vw;
   }
 `
-
-export default Paragraph

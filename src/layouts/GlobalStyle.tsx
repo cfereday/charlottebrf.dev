@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { fonts, NordicPalette } from '../../styles/variables'
+import { fonts, NordicPalette } from '../styles/variables'
 
 const GlobalStyle = createGlobalStyle`
   body { 

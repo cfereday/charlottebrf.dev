@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { NordicPalette } from '../../styles/variables'
 
-const Portrait = styled.img`
+export const Portrait = styled.img`
   box-sizing: border-box;
   border-radius: 50%;
   border: 10px solid ${NordicPalette.snowStorm.white};
@@ -10,10 +10,8 @@ const Portrait = styled.img`
   height: auto;
   max-width: 300px;
   max-height: 300px;
-  
-   @media only screen and (max-width: 800px) {
-     margin: 3rem 0;
-   }
-`
 
-export default Portrait;
+  @media only screen and (max-width: 800px) {
+    margin: 3rem 0;
+  }
+`

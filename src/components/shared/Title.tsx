@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { NordicPalette } from '../../styles/variables'
 
-const Title = styled.h1`
+export const Title = styled.h1`
   color: ${NordicPalette.snowStorm.white};
   display: block;
    font-size: 100px;
@@ -16,5 +16,3 @@ const Title = styled.h1`
   }
 }
 `
-
-export default Title

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Main = styled.main`
+export const Main = styled.main`
   display: flex;
   margin-top: 20vh;
 
@@ -11,4 +11,17 @@ const Main = styled.main`
     margin-top: 0;
   }
 `
-export default Main
+
+interface ColumnProps {
+  left?: boolean
+  right?: boolean
+}
+
+export const Column = styled.div<ColumnProps>`
+  flex: 1;
+  text-align: ${props => (props.left ? 'end' : 'start')};
+
+  @media only screen and (max-width: 800px) {
+    text-align: center;
+  }
+`

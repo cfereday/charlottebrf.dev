@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { NordicPalette } from '../../styles/variables'
 
-const SubTitle = styled.h2`
+export const SubTitle = styled.h2`
   color: ${NordicPalette.snowStorm.white};
   display: block;
   font-size: 50px;
@@ -14,5 +14,3 @@ const SubTitle = styled.h2`
     font-size: 12vw;
   }
 `
-
-export default SubTitle
