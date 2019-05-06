@@ -4,6 +4,8 @@ import { Base } from '../layouts/base'
 import { NavigationLink } from '../components/shared/NavigationLink'
 import { NordicPalette } from '../styles/variables'
 import { Column } from '../components/shared/Main'
+import { NightParagraph } from '../components/shared/Paragraph'
+import { NightHeader } from '../components/shared/Header'
 
 const profile = () => (
   <Base>
@@ -12,116 +14,50 @@ const profile = () => (
     </Column>
     <Column>
       <Timeline lineColor={NordicPalette.snowStorm.white}>
-        <TimelineItem key="001  " dateText="11/2010 – Present" style={{ color: '#e86971' }}>
-          <h3>Title, Company</h3>
-          <h4>Subtitle</h4>
-          <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit
-            adipisicing anim excepteur
-            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat
-            dolore in elit.
-            Adipisicing do qui duis Lorem est.
-          </p>
-          <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit
-            adipisicing anim excepteur
-            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat
-            dolore in elit.
-            Adipisicing do qui duis Lorem est.
-          </p>
-          <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit
-            adipisicing anim excepteur
-            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat
-            dolore in elit.
-            Adipisicing do qui duis Lorem est.
-          </p>
-        </TimelineItem>
         <TimelineItem
-          key="002"
-          dateText="04/2009 – 11/2010"
-          dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+          key="001"
+          dateText="11/2010 – Present"
+          dateInnerStyle={{ background: `${NordicPalette.frost.darkBlue}`, color: `${NordicPalette.snowStorm.white}` }}
           bodyContainerStyle={{
-            background: '#ddd',
+            background: `${NordicPalette.snowStorm.grey}`,
             padding: '20px',
             borderRadius: '8px',
             boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
           }}
         >
-          <h3 style={{ color: '#61b8ff' }}>Title, Company</h3>
-          <h4 style={{ color: '#61b8ff' }}>Subtitle</h4>
-          <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit
-            adipisicing anim excepteur
-            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat
-            dolore in elit.
+          <NightHeader>Title, Company</NightHeader>
+          <NightParagraph>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit adipisicing anim excepteur
+            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat dolore in elit.
             Adipisicing do qui duis Lorem est.
-          </p>
-          <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit
-            adipisicing anim excepteur
-            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat
-            dolore in elit.
+          </NightParagraph>
+          <NightParagraph>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit adipisicing anim excepteur
+            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat dolore in elit.
             Adipisicing do qui duis Lorem est.
-          </p>
+          </NightParagraph>
+          <NightParagraph>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit adipisicing anim excepteur
+            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat dolore in elit.
+            Adipisicing do qui duis Lorem est.
+          </NightParagraph>
         </TimelineItem>
         <TimelineItem
-          key="003"
-          dateComponent={
-            <div
-              style={{
-                display: 'block',
-                float: 'left',
-                padding: '10px',
-                background: 'rgb(150, 150, 150)',
-                color: '#fff'
-              }}
-            >
-              11/2008 – 04/2009
-            </div>
-          }
+          key="004"
+          dateText="08/2008 – 11/2008"
+          dateInnerStyle={{ background: `${NordicPalette.frost.lightBlue}`, color: `${NordicPalette.snowStorm.white}` }}
         >
-          <h3>Title, Company</h3>
-          <h4>Subtitle</h4>
-          <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit
-            adipisicing anim excepteur
-            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat
-            dolore in elit.
+          <NightHeader>Title, Company</NightHeader>
+          <NightParagraph>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit adipisicing anim excepteur
+            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat dolore in elit.
             Adipisicing do qui duis Lorem est.
-          </p>
-          <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit
-            adipisicing anim excepteur
-            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat
-            dolore in elit.
+          </NightParagraph>
+          <NightParagraph>
+            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit adipisicing anim excepteur
+            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat dolore in elit.
             Adipisicing do qui duis Lorem est.
-          </p>
-          <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit
-            adipisicing anim excepteur
-            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat
-            dolore in elit.
-            Adipisicing do qui duis Lorem est.
-          </p>
-        </TimelineItem>
-        <TimelineItem key="004" dateText="08/2008 – 11/2008" dateInnerStyle={{ background: '#76bb7f' }}>
-          <h3>Title, Company</h3>
-          <h4>Subtitle</h4>
-          <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit
-            adipisicing anim excepteur
-            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat
-            dolore in elit.
-            Adipisicing do qui duis Lorem est.
-          </p>
-          <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla exercitation. Veniam velit
-            adipisicing anim excepteur
-            nostrud magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure reprehenderit laborum fugiat
-            dolore in elit.
-            Adipisicing do qui duis Lorem est.
-          </p>
+          </NightParagraph>
         </TimelineItem>
       </Timeline>
     </Column>
