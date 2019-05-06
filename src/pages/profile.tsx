@@ -6,6 +6,7 @@ import { NordicPalette } from '../styles/variables'
 import { Column } from '../components/shared/Main'
 import { NightParagraph } from '../components/shared/Paragraph'
 import { NightHeader3, NightHeader4 } from '../components/shared/Header'
+import { Links } from '../components/shared/Links'
 
 const profile = () => (
   <Base>
@@ -77,14 +78,15 @@ const profile = () => (
         <TimelineItem
           key="002"
           dateText="04/2017 – 08/2017"
-          dateInnerStyle={{ background: `${NordicPalette.snowStorm.grey}`, color: `${NordicPalette.polarNight.charcoal}` }}
+          dateInnerStyle={{
+            background: `${NordicPalette.snowStorm.grey}`,
+            color: `${NordicPalette.polarNight.charcoal}`
+          }}
         >
           <NightHeader3>Women in Tech Scholar, Makers Academy/ThoughtWorks</NightHeader3>
           <NightParagraph>
             <ul>
-              <li>
-                One of a total of five scholars to receive support to retrain
-              </li>
+              <li>One of a total of five scholars to receive support to retrain</li>
               <li>
                 <b>Tech Stack:</b> Ruby, JavaScript, SQL
               </li>
@@ -114,7 +116,10 @@ const profile = () => (
         <TimelineItem
           key="004"
           dateText="09/2013 – 09/2015"
-          dateInnerStyle={{ background: `${NordicPalette.snowStorm.grey}`, color: `${NordicPalette.polarNight.charcoal}` }}
+          dateInnerStyle={{
+            background: `${NordicPalette.snowStorm.grey}`,
+            color: `${NordicPalette.polarNight.charcoal}`
+          }}
         >
           <NightHeader3>Knowledge Exchange Associate: Arts & Digital, King's Cultural Institute</NightHeader3>
           <NightParagraph>
@@ -136,24 +141,29 @@ const profile = () => (
             boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
           }}
         >
-          <NightHeader3>MA & PhD Candidate: SPLAS, King's College London</NightHeader3>
+          <NightHeader3>Spanish & Latin American Studies Researcher, King's College London</NightHeader3>
+          <br></br>
+          <NightHeader4>PhD completed 09/2015</NightHeader4>
           <NightParagraph>
             <ul>
               <li>
-                <b>Skills:</b> AHRC funded
+                AHRC funded PhD analysing memory, selfhood & exile. Read more about the PhD and research outputs
+                <Links href="https://kcl.academia.edu/CharlotteFereday" title="Research"> here</Links>
               </li>
             </ul>
+            <NightHeader4>MA completed 09/2010</NightHeader4>
           </NightParagraph>
         </TimelineItem>
         <TimelineItem
           key="006"
           dateText="09/2005 – 09/2009"
-          dateInnerStyle={{ background: `${NordicPalette.snowStorm.grey}`, color: `${NordicPalette.polarNight.charcoal}` }}
+          dateInnerStyle={{
+            background: `${NordicPalette.snowStorm.grey}`,
+            color: `${NordicPalette.polarNight.charcoal}`
+          }}
         >
           <NightHeader3>BA English Literature & Language, University of Leeds</NightHeader3>
         </TimelineItem>
-
-
       </Timeline>
     </Column>
   </Base>
