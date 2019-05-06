@@ -66,6 +66,9 @@ const IndexPage = () => (
           <Links href="https://www.linkedin.com/in/cfereday" title="LinkedIn">
             <i className="fab fa-linkedin-in" />
           </Links>
+          <Links href="https://medium.com/@charlottebrf" title="LinkedIn">
+            <i className="fab fa-medium" />
+          </Links>
         </Contact>
       </Column>
     </Main>
