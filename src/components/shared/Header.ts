@@ -15,6 +15,11 @@ export const NightHeader3 = styled.h3`
   }
 `
 
+export const SnowHeader3 = styled(NightHeader3)`
+  color: ${NordicPalette.snowStorm.white};
+  }
+`
+
 export const NightHeader4 = styled.h4`
   color: ${NordicPalette.polarNight.charcoal};
   display: block;
