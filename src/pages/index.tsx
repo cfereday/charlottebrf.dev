@@ -20,6 +20,7 @@ const IndexPage = () => (
         <Title>Charlotte Fereday</Title>
         <SubTitle>Academic turned Developer</SubTitle>
         <NavigationLink to="/profile">Profile</NavigationLink>
+        <NavigationLink to="/portfolio">Portfolio</NavigationLink>
         <SnowParagraph>
           Full stack Developer at{' '}
           <Links href="https://www.thoughtworks.com/" title="ThoughtWorks">

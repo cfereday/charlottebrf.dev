@@ -3,4 +3,9 @@ declare module '*.jpeg' {
   export default content
 }
 
+declare module '*.jpg' {
+  const content: string
+  export default content
+}
+
 declare module 'vertical-timeline-component-for-react'
