@@ -36,7 +36,7 @@ const ImageAndLabelContainer = styled.div`
 
 const BaseProjectImage = styled.img`
   box-sizing: border-box;
-  border-radius: 5%;
+  border-radius: 30px;
   border: 5px solid ${NordicPalette.snowStorm.white};
   width: 100%;
   height: auto;
@@ -55,27 +55,21 @@ const Portfolio = () => (
         <ImageAndLabelContainer>
           <SnowHeader3>Coder Newbie</SnowHeader3>
           <SnowParagraph> An open source website with free resources to learn to code.</SnowParagraph>
-          <SnowParagraph> Written using JavaScript, React, GrapphQL & Gatsby.</SnowParagraph>
-          <SnowParagraph>
-            See the codebase
-            <Links href="https://github.com/charlottebrf/coder-newbie-advice" title="Coder-Newbie">
-              {' '}
-              here
-            </Links>
-          </SnowParagraph>
-          <BaseProjectImage src={coderNewbie} alt="Coder Newbie" />
+          <SnowParagraph>See the codebase
+            <Links href="https://github.com/charlottebrf/coder-newbie-advice"
+                   title="Coder-Newbie"> here</Links></SnowParagraph>
+          <BaseProjectImage src={coderNewbie} alt="Coder Newbie">
+          </BaseProjectImage>
         </ImageAndLabelContainer>
       </ProjectContainer>
       <ProjectContainer>
         <ImageAndLabelContainer>
           <SnowHeader3>Flat Rules Engine</SnowHeader3>
           <SnowParagraph> A toy project using Clojure Clara Rules to better understand them</SnowParagraph>
-          <SnowParagraph>
-            {' '}
-            See the codebase
+          <SnowParagraph> See the codebase
             <Links href="https://github.com/charlottebrf/flat-chores-engine" title="Flat Rules Engine"> here</Links>
           </SnowParagraph>
-          <BaseProjectImage src={flatChore} alt="Clara Rules Engine" />
+          <BaseProjectImage src={flatChore} alt="Clara Rules Engine"/>
         </ImageAndLabelContainer>
       </ProjectContainer>
       <ProjectContainer>
@@ -85,12 +79,9 @@ const Portfolio = () => (
           <SnowParagraph>
             {' '}
             See the codebase
-            <Links href="https://github.com/charlottebrf/charlottebrf.dev" title="Charlottebrf">
-              {' '}
-              here
-            </Links>
+            <Links href="https://github.com/charlottebrf/charlottebrf.dev" title="Charlottebrf"> here</Links>
           </SnowParagraph>
-          <BaseProjectImage src={charlotteWebsite} alt="Clara Rules Engine" />
+          <BaseProjectImage src={charlotteWebsite} alt="Clara Rules Engine"/>
         </ImageAndLabelContainer>
       </ProjectContainer>
       <ProjectContainer>
