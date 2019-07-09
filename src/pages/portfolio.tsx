@@ -45,58 +45,73 @@ const BaseProjectImage = styled.img`
   vertical-align: middle;
 `
 
-const Portfolio = () => (
-  <Base>
-    <Column right>
-      <NavigationLink to="/">Back to Homepage</NavigationLink>
-    </Column>
+interface ProjectInfo {
+  title: string
+  paragraph: string
+  url: string
+  image: string
+}
+
+const createProject = (info: ProjectInfo) => {
+  return (
     <PageContainer>
       <ProjectContainer>
         <ImageAndLabelContainer>
-          <SnowHeader3>Coder Newbie</SnowHeader3>
-          <SnowParagraph> An open source website with free resources to learn to code.</SnowParagraph>
-          <SnowParagraph>See the codebase
-            <Links href="https://github.com/charlottebrf/coder-newbie-advice"
-                   title="Coder-Newbie"> here</Links></SnowParagraph>
-          <BaseProjectImage src={coderNewbie} alt="Coder Newbie">
-          </BaseProjectImage>
-        </ImageAndLabelContainer>
-      </ProjectContainer>
-      <ProjectContainer>
-        <ImageAndLabelContainer>
-          <SnowHeader3>Flat Rules Engine</SnowHeader3>
-          <SnowParagraph> A toy project using Clojure Clara Rules to better understand them</SnowParagraph>
-          <SnowParagraph> See the codebase
-            <Links href="https://github.com/charlottebrf/flat-chores-engine" title="Flat Rules Engine"> here</Links>
-          </SnowParagraph>
-          <BaseProjectImage src={flatChore} alt="Clara Rules Engine"/>
-        </ImageAndLabelContainer>
-      </ProjectContainer>
-      <ProjectContainer>
-        <ImageAndLabelContainer>
-          <SnowHeader3>Personal Website</SnowHeader3>
-          <SnowParagraph>Built using TypeScript, React and Gatsby, a static site</SnowParagraph>
+          <SnowHeader3>{info.title}</SnowHeader3>
+          <SnowParagraph>{info.paragraph}</SnowParagraph>
           <SnowParagraph>
-            {' '}
-            See the codebase
-            <Links href="https://github.com/charlottebrf/charlottebrf.dev" title="Charlottebrf"> here</Links>
+            {'See the codebase'}
+            <Links href={info.url} title={info.title}>
+              {' '}
+              {'here'}
+            </Links>
           </SnowParagraph>
-          <BaseProjectImage src={charlotteWebsite} alt="Clara Rules Engine"/>
-        </ImageAndLabelContainer>
-      </ProjectContainer>
-      <ProjectContainer>
-        <ImageAndLabelContainer>
-          <SnowHeader3>Rewriting core functions</SnowHeader3>
-          <SnowParagraph>A Clojure experiment in rewriting core functions to better understand them</SnowParagraph>
-          <SnowParagraph>
-            {' '}
-            See the codebase
-            <Links href="https://github.com/charlottebrf/writing-my-own-reduce-function" title="Reduce"> here</Links>
-          </SnowParagraph>
-          <BaseProjectImage src={reduceRewrite} alt="Rewriting reduce" />
+          <BaseProjectImage src={info.image} alt={info.title} />
         </ImageAndLabelContainer>
       </ProjectContainer>
     </PageContainer>
+  )
+}
+
+const Portfolio = () => (
+  <Base>
+    <div>
+      <Column right>
+        <NavigationLink to="/">Back to Homepage</NavigationLink>
+      </Column>
+      <PageContainer>
+        {createProject({
+          paragraph: 'An open source website with free resources to learn to code.',
+          url: 'https://github.com/charlottebrf/coder-newbie-advice',
+          title: 'Coder Newbie',
+          image: coderNewbie
+        })}
+        <ProjectContainer>
+          {createProject({
+            paragraph: 'A toy project using Clojure Clara Rules to best understand Clara.',
+            url: 'https://github.com/charlottebrf/flat-chores-engine',
+            title: 'Flat Rules Engine',
+            image: flatChore
+          })}
+        </ProjectContainer>
+        <ProjectContainer>
+          {createProject({
+            paragraph: 'Built using TypeScript, React and Gatsby, a static site.',
+            url: 'https://github.com/charlottebrf/charlottebrf.dev',
+            title: 'Personal Website',
+            image: charlotteWebsite
+          })}
+        </ProjectContainer>
+        <ProjectContainer>
+          {createProject({
+            paragraph: 'A Clojure experiment in rewriting core functions to better understand them.',
+            url: 'https://github.com/charlottebrf/writing-my-own-reduce-function',
+            title: 'Rewriting core functions',
+            image: reduceRewrite
+          })}
+        </ProjectContainer>
+      </PageContainer>
+    </div>
   </Base>
 )
 
