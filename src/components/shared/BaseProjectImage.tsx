@@ -3,7 +3,7 @@ import { NordicPalette } from '../../styles/variables'
 
 export const BaseProjectImage = styled.img`
   box-sizing: border-box;
-  border-radius: 30px;
+  border-radius: 20px;
   border: 5px solid ${NordicPalette.snowStorm.white};
   width: 100%;
   height: auto;

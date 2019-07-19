@@ -12,7 +12,7 @@ interface ProjectInfo {
   image: string
 }
 
-export const createProject = (info: ProjectInfo) => {
+export const Project = (info: ProjectInfo) => {
   return (
     <PageContainerCentre>
       <ProjectContainer>

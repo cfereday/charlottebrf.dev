@@ -7,7 +7,7 @@ import reduceRewrite from '../media/projects/ReduceRewrite.jpg'
 import { Column } from '../components/shared/Main'
 import { NavigationLink } from '../components/shared/NavigationLink'
 import { ProjectContainer, PageContainerCentre } from '../components/shared/Containers'
-import { createProject } from '../components/shared/CreateProject'
+import { Project } from '../components/shared/Project'
 
 const Portfolio = () => (
   <Base>
@@ -16,14 +16,14 @@ const Portfolio = () => (
         <NavigationLink to="/">Back to Homepage</NavigationLink>
       </Column>
       <PageContainerCentre>
-        {createProject({
+        {Project({
           paragraph: 'An open source website with free resources to learn to code.',
           url: 'https://github.com/charlottebrf/coder-newbie-advice',
           title: 'Coder Newbie',
           image: coderNewbie
         })}
         <ProjectContainer>
-          {createProject({
+          {Project({
             paragraph: 'A toy project using Clojure Clara Rules to best understand Clara.',
             url: 'https://github.com/charlottebrf/flat-chores-engine',
             title: 'Flat Rules Engine',
@@ -31,7 +31,7 @@ const Portfolio = () => (
           })}
         </ProjectContainer>
         <ProjectContainer>
-          {createProject({
+          {Project({
             paragraph: 'Built using TypeScript, React and Gatsby, a static site.',
             url: 'https://github.com/charlottebrf/charlottebrf.dev',
             title: 'Personal Website',
@@ -39,7 +39,7 @@ const Portfolio = () => (
           })}
         </ProjectContainer>
         <ProjectContainer>
-          {createProject({
+          {Project({
             paragraph: 'A Clojure experiment in rewriting core functions to better understand them.',
             url: 'https://github.com/charlottebrf/writing-my-own-reduce-function',
             title: 'Rewriting core functions',

@@ -34,4 +34,3 @@ export const ImageAndLabelContainer = styled.div`
   align-items: center;
   margin: 2em 3em;
 `
-
