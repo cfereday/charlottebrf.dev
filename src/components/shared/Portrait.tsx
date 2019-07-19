@@ -15,3 +15,13 @@ export const Portrait = styled.img`
     margin: 3rem 0;
   }
 `
+
+export const PortraitTalk = styled(Portrait)`
+  border: 3px solid ${NordicPalette.snowStorm.white};
+  max-width: 200px;
+  max-height: 200px;
+
+  @media only screen and (max-width: 800px) {
+    margin: 3rem 0;
+  }
+`

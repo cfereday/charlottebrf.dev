@@ -30,6 +30,8 @@ const Speaking = () => {
               logo: clojureX
             })}
           </ProjectContainer>
+        </PageContainerCentre>
+        <PageContainerCentre>
           <ProjectContainer>
             {Talk({
               paragraph: 'Advice sharing talk on how to switch career into tech',
@@ -40,9 +42,9 @@ const Speaking = () => {
           </ProjectContainer>
           <ProjectContainer>
             {Talk({
-              paragraph: 'Panel discussion on women in tech',
+              paragraph: 'Panel discussion on creating diverse workforces',
               url: 'https://wit-tbc',
-              title: 'Dublin Summit',
+              title: 'Tech Future',
               logo: clojureX
             })}
           </ProjectContainer>
