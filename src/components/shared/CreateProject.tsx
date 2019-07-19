@@ -1,10 +1,8 @@
 import * as React from 'react'
 import { SnowHeader3 } from './Header'
 import { SnowParagraph } from './Paragraph'
-import { PageContainer } from './PageContainer'
+import { PageContainerCentre, ProjectContainer, ImageAndLabelContainer } from './Containers'
 import { Links } from './Links'
-import { ProjectContainer } from './ProjectContainer'
-import { ImageAndLabelContainer } from './ImageAndLabelConatiner'
 import { BaseProjectImage } from './BaseProjectImage'
 
 interface ProjectInfo {
@@ -16,7 +14,7 @@ interface ProjectInfo {
 
 export const createProject = (info: ProjectInfo) => {
   return (
-    <PageContainer>
+    <PageContainerCentre>
       <ProjectContainer>
         <ImageAndLabelContainer>
           <SnowHeader3>{info.title}</SnowHeader3>
@@ -31,6 +29,6 @@ export const createProject = (info: ProjectInfo) => {
           <BaseProjectImage src={info.image} alt={info.title} />
         </ImageAndLabelContainer>
       </ProjectContainer>
-    </PageContainer>
+    </PageContainerCentre>
   )
 }

@@ -6,8 +6,7 @@ import charlotteWebsite from '../media/projects/CharloteWebsite.jpg'
 import reduceRewrite from '../media/projects/ReduceRewrite.jpg'
 import { Column } from '../components/shared/Main'
 import { NavigationLink } from '../components/shared/NavigationLink'
-import { PageContainer } from '../components/shared/PageContainer'
-import { ProjectContainer } from '../components/shared/ProjectContainer'
+import { ProjectContainer, PageContainerCentre } from '../components/shared/Containers'
 import { createProject } from '../components/shared/CreateProject'
 
 const Portfolio = () => (
@@ -16,7 +15,7 @@ const Portfolio = () => (
       <Column right>
         <NavigationLink to="/">Back to Homepage</NavigationLink>
       </Column>
-      <PageContainer>
+      <PageContainerCentre>
         {createProject({
           paragraph: 'An open source website with free resources to learn to code.',
           url: 'https://github.com/charlottebrf/coder-newbie-advice',
@@ -47,7 +46,7 @@ const Portfolio = () => (
             image: reduceRewrite
           })}
         </ProjectContainer>
-      </PageContainer>
+      </PageContainerCentre>
     </div>
   </Base>
 )
