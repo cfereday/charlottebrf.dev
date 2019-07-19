@@ -22,6 +22,7 @@ const IndexPage = () => (
         <NavigationLink to="/profile">Profile</NavigationLink>
         <NavigationLink to="/portfolio">Portfolio</NavigationLink>
         <NavigationLink to="/speaking">Speaking</NavigationLink>
+        <NavigationLink to="/community">Community</NavigationLink>
         <SnowParagraph>
           Full stack Developer at{' '}
           <Links href="https://www.thoughtworks.com/" title="ThoughtWorks">
