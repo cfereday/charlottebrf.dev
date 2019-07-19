@@ -11,13 +11,7 @@ import { NordicPalette } from '../styles/variables'
 import { SnowHeader3 } from '../components/shared/Header'
 import { SnowParagraph } from '../components/shared/Paragraph'
 import { Links } from '../components/shared/Links'
-
-const PageContainer = styled.div`
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin: 25px 0;
-`
+import { PageContainer } from '../components/shared/PageContainer'
 
 const ProjectContainer = styled.div`
   display: flex;
