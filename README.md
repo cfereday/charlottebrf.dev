@@ -7,9 +7,8 @@ Started using the ```gatsby-starter-typescript-plus``` starter kit, then customi
 
 - TypeScript
 - ESLint (with custom ESLint rules)
-- Markdown rendering with Remark
 - Basic component structure
-- Styling with [emotion](https://emotion.sh/)
+- Styling with [Styled Components](https://www.styled-components.com/docs/basics#getting-started)
 
 ## Testing 
 
