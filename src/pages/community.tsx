@@ -21,7 +21,7 @@ const Community = () => {
           <ProjectContainer>
             {Event({
               title: 'School of Code',
-              paragraph: 'Mentor for students learning to code at this free bootcamp for those underrepresented',
+              paragraph: 'Mentor for students learning to code at this free bootcamp underrepresented groups in tech',
               date: '2018 & 2019 cohorts',
               url: 'https://schoolofcode.co.uk',
               photo: SoC
@@ -39,7 +39,7 @@ const Community = () => {
           <ProjectContainer>
             {Event({
               title: 'Glasgow Clojure Dojo',
-              paragraph: 'Organiser of meetup bringing together all levels to improve Clojure skills via katas',
+              paragraph: 'Organiser of a meetup bringing together all levels to improve Clojure skills via dojos',
               date: 'Every month',
               url: 'https://www.meetup.com/Glasgow-Software-Development-Meetup/',
               photo: Glasgow
@@ -48,7 +48,7 @@ const Community = () => {
           <ProjectContainer>
             {Event({
               title: 'Ideating an Equitable Tech Future',
-              paragraph: 'Organiser a day event to explore using tech for good with charities & third sector',
+              paragraph: 'Organiser of a day event to explore using tech for good with charities & third sector',
               date: '19.09.17',
               url: 'https://twitter.com/hashtag/equitabletechfuture',
               photo: Eqtech
