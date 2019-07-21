@@ -3,7 +3,11 @@ import { Base } from '../layouts/base'
 import { Column } from '../components/shared/Main'
 import { NavigationLink } from '../components/shared/NavigationLink'
 import { PageContainerCentre, ProjectContainer } from '../components/shared/Containers'
-import clojureX from '../media/events/ClojureX.jpg'
+import Glasgow from '../media/events/Glasgow.jpeg'
+import Eqtech from '../media/events/Eqtech.jpeg'
+import Language from '../media/events/language-acts.png'
+import HB from '../media/events/HackBrexit.jpeg'
+import SoC from '../media/events/SoC.jpeg'
 import { Event } from '../components/shared/Event'
 
 const Community = () => {
@@ -16,38 +20,48 @@ const Community = () => {
         <PageContainerCentre>
           <ProjectContainer>
             {Event({
-              title: 'Organiser of Glasgow Clojure Dojo',
-              paragraph: 'A hands on meetup for all levels to improve Clojure skills',
-              date: 'Every month',
-              url: 'https://ideating-url',
-              photo: clojureX
+              title: 'School of Code',
+              paragraph: 'Mentor for students learning to code at this free bootcamp for those underrepresented',
+              date: '2018 & 2019 cohorts',
+              url: 'https://schoolofcode.co.uk',
+              photo: SoC
             })}
           </ProjectContainer>
           <ProjectContainer>
             {Event({
-              title: 'Organiser of Ideating Modern Languages',
-              paragraph: 'Educators & technologists explored the future of modern language learning',
+              title: 'Ideating the Modern Language Curriculum',
+              paragraph: 'Organiser of a collaboration with educators on impact of tech for language learning',
               date: '15.06.19',
-              url: 'https://ideating-url',
-              photo: clojureX
+              url: 'https://languageacts.org',
+              photo: Language
             })}
           </ProjectContainer>
           <ProjectContainer>
             {Event({
-              title: 'Organiser of Ideating an Equitable Tech Future',
-              paragraph: 'Charities & technologists explored how technology can be used for good',
-              date: '15.09.17',
-              url: 'https://ideating-url',
-              photo: clojureX
+              title: 'Glasgow Clojure Dojo',
+              paragraph: 'Organiser of meetup bringing together all levels to improve Clojure skills via katas',
+              date: 'Every month',
+              url: 'https://www.meetup.com/Glasgow-Software-Development-Meetup/',
+              photo: Glasgow
             })}
           </ProjectContainer>
           <ProjectContainer>
             {Event({
-              title: 'Organiser of Hack Brexit',
-              paragraph: '2 day hackathon on technological responses to Brexit a week after referendum results',
-              date: '15.06.17- 16.06.17',
-              url: 'https://ideating-url',
-              photo: clojureX
+              title: 'Ideating an Equitable Tech Future',
+              paragraph: 'Organiser a day event to explore using tech for good with charities & third sector',
+              date: '19.09.17',
+              url: 'https://twitter.com/hashtag/equitabletechfuture',
+              photo: Eqtech
+            })}
+          </ProjectContainer>
+          <ProjectContainer>
+            {Event({
+              title: 'Hack Brexit',
+              paragraph: 'Organiser of a two day hackathon to create dialogue & action for a country divided',
+              date: '23.07.16- 24.07.16',
+              url:
+                'https://www.computerweekly.com/news/450301594/ThoughtWorks-runs-tech-hackathon-to-provide-post-Brexit-support-to-public',
+              photo: HB
             })}
           </ProjectContainer>
         </PageContainerCentre>
