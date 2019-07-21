@@ -11,31 +11,38 @@ export const ProjectContainer = styled.div`
 export const Card = styled.div`
   box-sizing: border-box;
   background-color: ${NordicPalette.snowStorm.grey};
-  box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
-  padding: 1px;
-  margin: 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 0.5px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   position: relative;
   cursor: pointer;
-  transition: opacity .3s linear,box-shadow .1s linear;
+  transition: opacity 0.3s linear, box-shadow 0.1s linear;
   opacity: 1;
 `
 
 export const PageContainerCentre = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 25px 0;
 `
+
 export const ImageAndLabelContainer = styled.div`
   justify-content: center;
   flex-direction: row;
   align-content: center;
   align-items: center;
   margin: 2em 3em;
+  position: relative;
+  float: left;
+  max-width: 200px;
+`
+export const PortfolioImageAndLabelContainer = styled(ImageAndLabelContainer)`
+  max-width: 500px;
 `
 export const ImageAndLabelContainerLeft = styled(ImageAndLabelContainer)`
   justify-content: space-evenly;

@@ -1,7 +1,11 @@
 import * as React from 'react'
 import { SnowHeader3 } from './Header'
 import { SnowParagraph } from './Paragraph'
-import { PageContainerCentre, ProjectContainer, ImageAndLabelContainer } from './Containers'
+import {
+  PageContainerCentre,
+  ProjectContainer,
+  PortfolioImageAndLabelContainer
+} from './Containers'
 import { Links } from './Links'
 import { BaseProjectImage } from './BaseProjectImage'
 
@@ -16,7 +20,7 @@ export const Project = (info: ProjectInfo) => {
   return (
     <PageContainerCentre>
       <ProjectContainer>
-        <ImageAndLabelContainer>
+        <PortfolioImageAndLabelContainer>
           <SnowHeader3>{info.title}</SnowHeader3>
           <SnowParagraph>{info.paragraph}</SnowParagraph>
           <SnowParagraph>
@@ -27,7 +31,7 @@ export const Project = (info: ProjectInfo) => {
             </Links>
           </SnowParagraph>
           <BaseProjectImage src={info.image} alt={info.title} />
-        </ImageAndLabelContainer>
+        </PortfolioImageAndLabelContainer>
       </ProjectContainer>
     </PageContainerCentre>
   )

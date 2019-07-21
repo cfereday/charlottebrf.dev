@@ -7,7 +7,7 @@ import Glasgow from '../media/events/Glasgow.jpeg'
 import Eqtech from '../media/events/Eqtech.jpeg'
 import Language from '../media/events/language-acts.png'
 import HB from '../media/events/HackBrexit.jpeg'
-import SoC from '../media/events/SoC.jpeg'
+import SoC from '../media/events/SoC.jpg'
 import { Event } from '../components/shared/Event'
 
 const Community = () => {
@@ -21,7 +21,7 @@ const Community = () => {
           <ProjectContainer>
             <Card>
               {Event({
-                title: 'School of Code',
+                title: 'School of Code Bootcamp',
                 paragraph: 'Mentor for students at this free bootcamp for underrepresented groups in tech',
                 date: '2018 & 2019 cohorts',
                 url: 'https://schoolofcode.co.uk',
@@ -33,7 +33,7 @@ const Community = () => {
             <Card>
               {Event({
                 title: 'Ideating the Modern Language Curriculum',
-                paragraph: 'Organiser of a collaboration with educators on impact of tech for language learning',
+                paragraph: 'Organiser of a collaboration with educators on impact of tech for ML learning',
                 date: '15.06.19',
                 url: 'https://languageacts.org',
                 photo: Language
