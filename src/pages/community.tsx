@@ -21,7 +21,7 @@ const Community = () => {
           <ProjectContainer>
             {Event({
               title: 'School of Code',
-              paragraph: 'Mentor for students learning to code at this free bootcamp underrepresented groups in tech',
+              paragraph: 'Mentor for students at this free bootcamp for underrepresented groups in tech',
               date: '2018 & 2019 cohorts',
               url: 'https://schoolofcode.co.uk',
               photo: SoC
