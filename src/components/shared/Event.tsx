@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { SnowHeader3 } from './Header'
-import { SnowParagraph } from './Paragraph'
+import { NightHeader3 } from './Header'
+import { NightParagraph } from './Paragraph'
 import { PageContainerCentre, ProjectContainer, ImageAndLabelContainer } from './Containers'
-import { Links } from './Links'
+import { NightLinks } from './Links'
 import { BaseProjectImage } from './BaseProjectImage'
 
 interface EventInfo {
@@ -18,17 +18,19 @@ export const Event = (info: EventInfo) => {
     <PageContainerCentre>
       <ProjectContainer>
         <ImageAndLabelContainer>
-          <SnowHeader3>{info.title}</SnowHeader3>
-          <SnowParagraph>{info.paragraph}</SnowParagraph>
-          <SnowParagraph>{info.date}</SnowParagraph>
-          <SnowParagraph>
+          <BaseProjectImage src={info.photo} alt={info.title} />
+          <NightHeader3>{info.title}</NightHeader3>
+          <NightParagraph>
+            <i>{info.paragraph}</i>
+          </NightParagraph>
+          <NightParagraph>Date: {info.date}</NightParagraph>
+          <NightParagraph>
             {'More information'}
-            <Links href={info.url} title={info.title}>
+            <NightLinks href={info.url} title={info.title}>
               {' '}
               {'here'}
-            </Links>
-          </SnowParagraph>
-          <BaseProjectImage src={info.photo} alt={info.title} />
+            </NightLinks>
+          </NightParagraph>
         </ImageAndLabelContainer>
       </ProjectContainer>
     </PageContainerCentre>

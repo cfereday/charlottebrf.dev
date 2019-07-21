@@ -8,3 +8,7 @@ export const Links = styled.a`
     color: ${NordicPalette.frost.darkBlue};
   }
 `
+
+export const NightLinks = styled(Links)`
+  color: ${NordicPalette.polarNight.black};
+`
