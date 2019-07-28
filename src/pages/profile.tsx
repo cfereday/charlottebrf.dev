@@ -7,6 +7,7 @@ import { Column } from '../components/shared/Main'
 import { NightParagraph } from '../components/shared/Paragraph'
 import { NightHeader3, NightHeader4 } from '../components/shared/Header'
 import { Links } from '../components/shared/Links'
+import { profilePageVisit } from '../../GA'
 
 interface ParagraphText {
   header: string
@@ -35,6 +36,7 @@ const experienceItem = (text: ParagraphText) => {
 const profile = () => (
   <Base>
     <div>
+      {profilePageVisit()}
       <Column right>
         <NavigationLink to="/">Back to Homepage</NavigationLink>
       </Column>

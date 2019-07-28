@@ -7,11 +7,13 @@ import clojureX from '../media/talks/clojureX.jpg'
 import Thoughtworks from '../media/talks/Thoughtworks.jpg'
 import HYC from '../media/talks/HYC.jpeg'
 import { Talk } from '../components/shared/Talk'
+import { speakingPageVisit } from '../../GA'
 
 const Speaking = () => {
   return (
     <Base>
       <div>
+        {speakingPageVisit()}
         <Column right>
           <NavigationLink to="/">Back to Homepage</NavigationLink>
         </Column>
