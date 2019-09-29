@@ -27,8 +27,8 @@ const IndexPage = () => (
         <NavigationLink to="/community">Community</NavigationLink>
         <SnowParagraph>
           Full stack Developer at{' '}
-          <Links href="https://www.thoughtworks.com/" title="ThoughtWorks">
-            ThoughtWorks.
+          <Links href="https://www.engineering.tes.com/" title="TES">
+            TES Global Security Engineering Team.
           </Links>
           Working hard to deliver the best quality code.
         </SnowParagraph>

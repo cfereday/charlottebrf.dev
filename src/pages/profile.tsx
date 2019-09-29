@@ -41,10 +41,25 @@ const profile = () => (
         <NavigationLink to="/">Back to Homepage</NavigationLink>
       </Column>
       <Column>
+        <TimelineItem
+          key="000"
+          dateText="08/2019 – Present"
+          dateInnerStyle={{
+            background: `${NordicPalette.snowStorm.grey}`,
+            color: `${NordicPalette.polarNight.charcoal}`
+          }}
+        >
+          <NightHeader3>FullStack Software Engineer, Security Engineering Team, TES Global</NightHeader3>
+          {experienceItem({
+            header: 'Security Team',
+            techStack: 'JavaScript, Node, React, Redux, MongoDB, SQL, RabbitMQ, ELK stack',
+            skills: 'Learning & evangelising Security best practices, AAA services management, Remote first'
+          })}
+        </TimelineItem>
         <Timeline lineColor={NordicPalette.snowStorm.white}>
           <TimelineItem
             key="001"
-            dateText="09/2017 – Present"
+            dateText="09/2017 – 08/2019"
             dateInnerStyle={{ background: `${NordicPalette.frost.darkBlue}`, color: `${NordicPalette.snowStorm.white}` }}
             bodyContainerStyle={{
               background: `${NordicPalette.snowStorm.grey}`,
