@@ -9,12 +9,10 @@ import { Column, Main } from '../components/shared/Main'
 import { Base } from '../layouts/base'
 import Contact from '../components/shared/Contact'
 import { NavigationLink } from '../components/shared/NavigationLink'
-import { homePageVisit } from '../../GA'
 
 const IndexPage = () => (
   <Base>
     <Main>
-      {homePageVisit()}
       <Column left>
         <Portrait src={cf} alt="Portrait" />
       </Column>

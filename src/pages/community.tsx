@@ -9,13 +9,11 @@ import Language from '../media/events/language-acts.png'
 import HB from '../media/events/HackBrexit.jpeg'
 import SoC from '../media/events/SoC.jpg'
 import { Event } from '../components/shared/Event'
-import { communityPageVisit } from '../../GA'
 
 const Community = () => {
   return (
     <Base>
       <div>
-        {communityPageVisit()}
         <Column right>
           <NavigationLink to="/">Back to Homepage</NavigationLink>
         </Column>

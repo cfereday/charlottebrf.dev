@@ -12,11 +12,12 @@ export const Card = styled.div`
   box-sizing: border-box;
   background-color: ${NordicPalette.snowStorm.grey};
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
-  padding: 2px;
-  max-width: 50%;
-  max-height: 100%;
+  padding: 0.5px;
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative;
   cursor: pointer;
   transition: opacity 0.3s linear, box-shadow 0.1s linear;
   opacity: 1;
@@ -31,17 +32,17 @@ export const PageContainerCentre = styled.div`
 `
 
 export const ImageAndLabelContainer = styled.div`
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
   align-content: center;
   align-items: center;
   margin: 2em 3em;
   position: relative;
   float: left;
-  max-width: 50%;
+  max-width: 200px;
 `
 export const PortfolioImageAndLabelContainer = styled(ImageAndLabelContainer)`
-  max-width: 100%;
+  max-width: 500px;
 `
 export const ImageAndLabelContainerLeft = styled(ImageAndLabelContainer)`
   justify-content: space-evenly;

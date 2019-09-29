@@ -8,12 +8,10 @@ import { Column } from '../components/shared/Main'
 import { NavigationLink } from '../components/shared/NavigationLink'
 import { ProjectContainer, PageContainerCentre } from '../components/shared/Containers'
 import { Project } from '../components/shared/Project'
-import { portfolioPageVisit } from '../../GA'
 
 const Portfolio = () => (
   <Base>
     <div>
-      {portfolioPageVisit()}
       <Column right>
         <NavigationLink to="/">Back to Homepage</NavigationLink>
       </Column>
