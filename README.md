@@ -1,7 +1,7 @@
 # charlottebrf-dev
-A website to share more about my work as a developer. 
+A website to share more about my work as a developer.
 
-Started using the ```gatsby-starter-typescript-plus``` starter kit, then customised. 
+Started using the ```gatsby-starter-typescript-plus``` starter kit, then customised.
 
 ## Features
 
@@ -10,19 +10,13 @@ Started using the ```gatsby-starter-typescript-plus``` starter kit, then customi
 - Basic component structure
 - Styling with [Styled Components](https://www.styled-components.com/docs/basics#getting-started)
 
-## Testing 
+## Testing
 
 - Jest
 - React Testing Library
 
 
 ## Developing
-
-A nodejs >= 6.0.0 setup with [yarn](https://yarnpkg.com/) is recommended.
-
-```bash
-# install dependencies
-yarn
 
 # ...or, for npm
 npm install
@@ -32,6 +26,9 @@ npm start
 
 # build for production
 npm run build
+
+# run locally
+http://localhost:8000/
 
 # build for production and push to gh-pages branch
 npm run deploy

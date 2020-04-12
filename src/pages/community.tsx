@@ -8,7 +8,6 @@ import Eqtech from '../media/events/Eqtech.jpeg'
 import Language from '../media/events/language-acts.png'
 import SoC from '../media/events/SoC.jpg'
 import Ada from '../media/events/ada.png'
-import Technovation from '../media/events/technovation.png'
 import { Event } from '../components/shared/Event'
 
 const Community = () => {
@@ -19,17 +18,6 @@ const Community = () => {
           <NavigationLink to="/">Back to Homepage</NavigationLink>
         </Column>
         <PageContainerCentre>
-          <ProjectContainer>
-            <Card>
-              {Event({
-                title: 'Technovation Girls',
-                paragraph: 'Mentor helping young girls to solve real world problems with tech',
-                date: '2019',
-                url: 'https://technovationchallenge.org/',
-                photo: Technovation
-              })}
-            </Card>
-          </ProjectContainer>
           <ProjectContainer>
             <Card>
               {Event({
