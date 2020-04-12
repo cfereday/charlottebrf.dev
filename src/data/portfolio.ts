@@ -115,3 +115,51 @@ export const switchTech = {
   title: 'Hack Your Career: Introduction to tech 2018',
   logo: HYC
 }
+
+export const tes = {
+  header: 'Security Engineering Team',
+  techStack: 'JavaScript, Node, React, Redux, MongoDB, SQL, RabbitMQ, ELK stack',
+  skills: 'Learning & evangelising Security best practices, AAA services management, Remote first'
+}
+
+export const finTech = {
+  header: 'International FinTech Startup',
+  techStack: 'TypeScript, React, React Hooks & Context API, Apollo Server, GraphQL, Java',
+  skills: 'Coaching Agile best practices, Greenfield project'
+}
+
+export const publicSector = {
+  header: 'Public Sector Client',
+  techStack: 'Clojure, Clara Rules, MongoDB, RabbitMQ, ELK stack, Vagrant',
+  skills: 'Agile Delivery, Microservices architecture'
+}
+
+export const challengerBank = {
+  header: 'Startup Challenger Bank',
+  techStack: 'Clojure, JavaScript, React Native, Redux, Sagas, AWS',
+  skills: 'Product market fit, Greenfield project'
+}
+
+export const thoughtWorks = {
+  header: 'ThoughtWorks University Training scheme',
+  techStack: 'Java, JavaScript, PostgreSQL',
+  skills: 'Agile processes, Automation Testing, CFR testing'
+}
+
+export const makers = {
+  header: 'Women in Tech Scholar, Makers Academy/ThoughtWorks',
+  techStack: 'Ruby, JavaScript, SQL',
+  skills: 'One of a total of five scholars to receive support to retrain'
+}
+
+export const cfg = {
+  header: 'Programmes Manager, Code First: Girls',
+  techStack: 'Collaborated on creating beginner curriculum for: Ruby, Beginners Intro to Web Development',
+  skills: 'Stakeholder management, business development, community building'
+}
+
+export const kes = {
+  header: 'Knowledge Exchange Associate: Arts & Digital, Kings Cultural Institute',
+  techStack: 'Overseeing management of a variety of web apps',
+  skills: 'Stakeholder management, innovation, cross-displine collaboration'
+}

@@ -7,6 +7,7 @@ import { Column } from '../components/shared/Main'
 import { NightParagraph } from '../components/shared/Paragraph'
 import { NightHeader3, NightHeader4 } from '../components/shared/Header'
 import { Links } from '../components/shared/Links'
+import { tes, finTech, publicSector, challengerBank, thoughtWorks, makers, cfg, kes } from '../data/portfolio'
 
 interface ParagraphText {
   header: string
@@ -49,11 +50,7 @@ const profile = () => (
             }}
           >
             <NightHeader3>FullStack Software Engineer, TES Global</NightHeader3>
-            {experienceItem({
-              header: 'Security Engineering Team',
-              techStack: 'JavaScript, Node, React, Redux, MongoDB, SQL, RabbitMQ, ELK stack',
-              skills: 'Learning & evangelising Security best practices, AAA services management, Remote first'
-            })}
+            {experienceItem(tes)}
           </TimelineItem>
           <TimelineItem
             key="001"
@@ -70,26 +67,10 @@ const profile = () => (
             <NightParagraph>
               Consulting as an engineer on a variety of different projects. Pairing, TDD, Agile methodologies & much more.
             </NightParagraph>
-            {experienceItem({
-              header: 'International FinTech Startup',
-              techStack: 'TypeScript, React, React Hooks & Context API, Apollo Server, GraphQL, Java',
-              skills: 'Coaching Agile best practices, Greenfield project'
-            })}
-            {experienceItem({
-              header: 'Public Sector Client',
-              techStack: 'Clojure, Clara Rules, MongoDB, RabbitMQ, ELK stack, Vagrant',
-              skills: 'Agile Delivery, Microservices architecture'
-            })}
-            {experienceItem({
-              header: 'Startup Challenger Bank',
-              techStack: 'Clojure, JavaScript, React Native, Redux, Sagas, AWS',
-              skills: 'Product market fit, Greenfield project'
-            })}
-            {experienceItem({
-              header: 'ThoughtWorks University Training scheme',
-              techStack: 'Java, JavaScript, PostgreSQL',
-              skills: 'Agile processes, Automation Testing, CFR testing'
-            })}
+            {experienceItem(finTech)}
+            {experienceItem(publicSector)}
+            {experienceItem(challengerBank)}
+            {experienceItem(thoughtWorks)}
           </TimelineItem>
           <TimelineItem
             key="002"
@@ -99,11 +80,7 @@ const profile = () => (
               color: `${NordicPalette.polarNight.charcoal}`
             }}
           >
-            {experienceItem({
-              header: 'Women in Tech Scholar, Makers Academy/ThoughtWorks',
-              techStack: 'Ruby, JavaScript, SQL',
-              skills: 'One of a total of five scholars to receive support to retrain'
-            })}
+            {experienceItem(makers)}
           </TimelineItem>
           <TimelineItem
             key="003"
@@ -116,11 +93,7 @@ const profile = () => (
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
             }}
           >
-            {experienceItem({
-              header: 'Programmes Manager, Code First: Girls',
-              techStack: 'Collaborated on creating beginner curriculum for: Ruby, Beginners Intro to Web Development',
-              skills: 'Stakeholder management, business development, community building'
-            })}
+            {experienceItem(cfg)}
           </TimelineItem>
           <TimelineItem
             key="004"
@@ -130,11 +103,7 @@ const profile = () => (
               color: `${NordicPalette.polarNight.charcoal}`
             }}
           >
-            {experienceItem({
-              header: 'Knowledge Exchange Associate: Arts & Digital, Kings Cultural Institute',
-              techStack: 'Overseeing management of a variety of web apps',
-              skills: 'Stakeholder management, innovation, cross-displine collaboration'
-            })}
+            {experienceItem(kes)}
           </TimelineItem>
           <TimelineItem
             key="005"
