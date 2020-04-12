@@ -42,7 +42,7 @@ export const ImageAndLabelContainer = styled.div`
   max-width: 200px;
 `
 export const PortfolioImageAndLabelContainer = styled(ImageAndLabelContainer)`
-  max-width: 500px;
+  margin: 0em 0em;
 `
 export const ImageAndLabelContainerLeft = styled(ImageAndLabelContainer)`
   justify-content: space-evenly;
