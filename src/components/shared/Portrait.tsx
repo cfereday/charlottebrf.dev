@@ -20,6 +20,7 @@ export const PortraitTalk = styled(Portrait)`
   border: 3px solid ${NordicPalette.snowStorm.white};
   max-width: 200px;
   max-height: 200px;
+  margin: 0em 0em;
 
   @media only screen and (max-width: 800px) {
     margin: 3rem 0;
