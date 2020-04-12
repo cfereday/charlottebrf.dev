@@ -8,6 +8,10 @@ import SoC from '../media/events/SoC.jpg'
 import Language from '../media/events/language-acts.png'
 import Glasgow from '../media/events/Glasgow.jpeg'
 import Eqtech from '../media/events/Eqtech.jpeg'
+import clojureX from '../media/talks/clojureX.jpg'
+import Thoughtworks from '../media/talks/Thoughtworks.jpg'
+import Authen from '../media/talks/authen-authoris.png'
+import HYC from '../media/talks/HYC.jpeg'
 
 export const nodeProject = {
   paragraph: 'Built using Javascript, Node, Postgres, Bcrypt, JWT ',
@@ -82,4 +86,32 @@ export const eqTech = {
   date: '19.09.17',
   url: 'https://twitter.com/hashtag/equitabletechfuture',
   photo: Eqtech
+}
+
+export const nodeGirls = {
+  paragraph: 'Addressing basic security concerns when handling Authentication & Authorisation in NodeJs apps.',
+  url: 'https://slides.com/charlottefereday/deck/fullscreen',
+  title: 'Node Girls & Women of Security 2020: Authentication & Authorisation',
+  logo: Authen
+}
+
+export const claraRulesTalk = {
+  paragraph: 'Beginners Introduction to Clara Rules Engine',
+  url: 'https://medium.com/@charlottebrf/beginners-introduction-to-clara-rules-a92b02000ceb',
+  title: 'ClojureX 2018',
+  logo: clojureX
+}
+
+export const coreFuns = {
+  paragraph: 'What I learnt from rewriting core functions',
+  url: 'https://medium.com/@charlottebrf/what-i-learnt-from-re-writing-core-functions-c31ade1359a6',
+  title: 'ThoughtWorks Away Day 2018',
+  logo: Thoughtworks
+}
+
+export const switchTech = {
+  paragraph: 'Switching into a tech career',
+  url: 'https://medium.com/@charlottebrf/notes-to-a-junior-developer-from-a-tech-lead-599e4ab7aac4',
+  title: 'Hack Your Career: Introduction to tech 2018',
+  logo: HYC
 }
