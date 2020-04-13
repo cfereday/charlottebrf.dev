@@ -89,31 +89,35 @@ export const eqTech = {
 }
 
 export const nodeGirls = {
+  title: 'Node Girls & Women of Security: Authentication & Authorisation',
   paragraph: 'Addressing basic security concerns when handling Authentication & Authorisation in NodeJs apps.',
+  date: '29.02.20',
   url: 'https://slides.com/charlottefereday/deck/fullscreen',
-  title: 'Node Girls & Women of Security 2020: Authentication & Authorisation',
-  logo: Authen
+  image: Authen
 }
 
 export const claraRulesTalk = {
-  paragraph: 'Beginners Introduction to Clara Rules Engine',
-  url: 'https://medium.com/@charlottebrf/beginners-introduction-to-clara-rules-a92b02000ceb',
   title: 'ClojureX 2018',
-  logo: clojureX
+  paragraph: 'Beginners Introduction to Clara Rules Engine',
+  date: '03.12.18',
+  url: 'https://medium.com/@charlottebrf/beginners-introduction-to-clara-rules-a92b02000ceb',
+  image: clojureX
 }
 
 export const coreFuns = {
-  paragraph: 'What I learnt from rewriting core functions',
-  url: 'https://medium.com/@charlottebrf/what-i-learnt-from-re-writing-core-functions-c31ade1359a6',
   title: 'ThoughtWorks Away Day 2018',
-  logo: Thoughtworks
+  paragraph: 'What I learnt from rewriting core functions',
+  date: '09.08.18',
+  url: 'https://medium.com/@charlottebrf/what-i-learnt-from-re-writing-core-functions-c31ade1359a6',
+  image: Thoughtworks
 }
 
 export const switchTech = {
-  paragraph: 'Switching into a tech career',
-  url: 'https://medium.com/@charlottebrf/notes-to-a-junior-developer-from-a-tech-lead-599e4ab7aac4',
   title: 'Hack Your Career: Introduction to tech 2018',
-  logo: HYC
+  paragraph: 'Switching into a tech career',
+  date: '21.10.18',
+  url: 'https://medium.com/@charlottebrf/notes-to-a-junior-developer-from-a-tech-lead-599e4ab7aac4',
+  image: HYC
 }
 
 export const tes = {

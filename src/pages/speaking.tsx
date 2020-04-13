@@ -3,7 +3,7 @@ import { Base } from '../layouts/base'
 import { Column } from '../components/shared/Main'
 import { NavigationLink } from '../components/shared/NavigationLink'
 import { CardsPatternWrapper, CardPattern } from '../components/shared/Containers'
-import { Talk } from '../components/shared/Talk'
+import { Content } from '../components/shared/Content'
 import { nodeGirls, claraRulesTalk, coreFuns, switchTech } from '../data/portfolio'
 
 const Speaking = () => {
@@ -14,10 +14,10 @@ const Speaking = () => {
           <NavigationLink to="/">Back to Homepage</NavigationLink>
         </Column>
         <CardsPatternWrapper>
-          <CardPattern>{Talk(nodeGirls)}</CardPattern>
-          <CardPattern>{Talk(claraRulesTalk)}</CardPattern>
-          <CardPattern>{Talk(coreFuns)}</CardPattern>
-          <CardPattern>{Talk(switchTech)}</CardPattern>
+          <CardPattern>{Content(nodeGirls)}</CardPattern>
+          <CardPattern>{Content(claraRulesTalk)}</CardPattern>
+          <CardPattern>{Content(coreFuns)}</CardPattern>
+          <CardPattern>{Content(switchTech)}</CardPattern>
         </CardsPatternWrapper>
       </div>
     </Base>
