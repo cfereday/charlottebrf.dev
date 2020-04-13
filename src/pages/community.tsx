@@ -3,7 +3,7 @@ import { Base } from '../layouts/base'
 import { Column } from '../components/shared/Main'
 import { NavigationLink } from '../components/shared/NavigationLink'
 import { CardPattern, CardsPatternWrapper } from '../components/shared/Containers'
-import { Event } from '../components/shared/Event'
+import { Content } from '../components/shared/Content'
 import { adaLab, soC, ideating, dojo, eqTech } from '../data/portfolio'
 
 const Community = () => {
@@ -14,11 +14,11 @@ const Community = () => {
           <NavigationLink to="/">Back to Homepage</NavigationLink>
         </Column>
         <CardsPatternWrapper>
-          <CardPattern>{Event(adaLab)}</CardPattern>
-          <CardPattern>{Event(soC)}</CardPattern>
-          <CardPattern>{Event(ideating)}</CardPattern>
-          <CardPattern>{Event(dojo)}</CardPattern>
-          <CardPattern>{Event(eqTech)}</CardPattern>
+          <CardPattern>{Content(adaLab)}</CardPattern>
+          <CardPattern>{Content(soC)}</CardPattern>
+          <CardPattern>{Content(ideating)}</CardPattern>
+          <CardPattern>{Content(dojo)}</CardPattern>
+          <CardPattern>{Content(eqTech)}</CardPattern>
         </CardsPatternWrapper>
       </div>
     </Base>

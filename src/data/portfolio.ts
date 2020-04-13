@@ -58,7 +58,7 @@ export const adaLab = {
   paragraph: 'Mentor for students at this free bootcamp to get more women in tech',
   date: '2019',
   url: 'https://adalab.es/hazte-voluntario/',
-  photo: Ada
+  image: Ada
 }
 
 export const soC = {
@@ -66,7 +66,7 @@ export const soC = {
   paragraph: 'Mentor for students at this free bootcamp for underrepresented groups in tech',
   date: '2018 - 2019',
   url: 'https://schoolofcode.co.uk',
-  photo: SoC
+  image: SoC
 }
 
 export const ideating = {
@@ -74,7 +74,7 @@ export const ideating = {
   paragraph: 'Organiser of a collaboration with educators on impact of tech for ML learning',
   date: '15.06.19',
   url: 'https://languageacts.org',
-  photo: Language
+  image: Language
 }
 
 export const dojo = {
@@ -82,7 +82,7 @@ export const dojo = {
   paragraph: 'Organiser of meetup bringing together all levels to improve Clojure skills dojos',
   date: '2018 - 2019',
   url: 'https://www.meetup.com/Glasgow-Software-Development-Meetup/',
-  photo: Glasgow
+  image: Glasgow
 }
 
 export const eqTech = {
@@ -90,7 +90,7 @@ export const eqTech = {
   paragraph: 'Organiser of a day event to explore using tech for good with charities & third sector',
   date: '19.09.17',
   url: 'https://twitter.com/hashtag/equitabletechfuture',
-  photo: Eqtech
+  image: Eqtech
 }
 
 export const nodeGirls = {
