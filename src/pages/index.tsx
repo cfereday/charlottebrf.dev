@@ -28,8 +28,8 @@ const IndexPage = () => (
           <Links href="https://engineering.tes.com/" title="TES">
             TES Global Security Engineering Team.
           </Links>
-          <br></br>
-          <br></br>
+          <br />
+          <br />
           Working hard to deliver the best quality code.
         </SnowParagraph>
         <SnowParagraph>

@@ -8,16 +8,18 @@ import { nodeProject, personalWebsite, clojureReduce, claraRules, newbie } from 
 
 const Portfolio = () => (
   <Base>
-    <Column right>
-      <NavigationLink to="/">Back to Homepage</NavigationLink>
-    </Column>
-    <CardsPatternWrapper>
-      <CardPattern>{Project(nodeProject)}</CardPattern>
-      <CardPattern>{Project(personalWebsite)}</CardPattern>
-      <CardPattern>{Project(clojureReduce)}</CardPattern>
-      <CardPattern>{Project(claraRules)}</CardPattern>
-      <CardPattern>{Project(newbie)}</CardPattern>
-    </CardsPatternWrapper>
+    <div>
+      <Column right>
+        <NavigationLink to="/">Back to Homepage</NavigationLink>
+      </Column>
+      <CardsPatternWrapper>
+        <CardPattern>{Project(nodeProject)}</CardPattern>
+        <CardPattern>{Project(personalWebsite)}</CardPattern>
+        <CardPattern>{Project(clojureReduce)}</CardPattern>
+        <CardPattern>{Project(claraRules)}</CardPattern>
+        <CardPattern>{Project(newbie)}</CardPattern>
+      </CardsPatternWrapper>
+    </div>
   </Base>
 )
 
