@@ -14,38 +14,43 @@ import Authen from '../media/talks/authen-authoris.png'
 import HYC from '../media/talks/HYC.jpeg'
 
 export const nodeProject = {
-  paragraph: 'Built using Javascript, Node, Postgres, Bcrypt, JWT ',
-  url: 'https://github.com/cfereday/pet-shop/tree/master/shop',
   title: 'An authentication & authorisation app',
+  paragraph: 'Built using Javascript, Node, Postgres, Bcrypt, JWT ',
+  date: '29.02.20',
+  url: 'https://github.com/cfereday/pet-shop/tree/master/shop',
   image: Admin
 }
 
 export const personalWebsite = {
-  paragraph: 'Built using TypeScript, React and Gatsby, a static site.',
-  url: 'https://github.com/charlottebrf/charlottebrf.dev',
   title: 'Personal Website',
+  paragraph: 'Built using TypeScript, React and Gatsby, a static site.',
+  date: '01.08.19',
+  url: 'https://github.com/charlottebrf/charlottebrf.dev',
   image: charlotteWebsite
 }
 
-export const clojureReduce = {
-  paragraph: 'A Clojure experiment in rewriting core functions to better understand them.',
-  url: 'https://github.com/charlottebrf/writing-my-own-reduce-function',
-  title: 'Rewriting core functions',
-  image: reduceRewrite
+export const newbie = {
+  title: 'Coder Newbie',
+  paragraph: 'An open source website with free resources to learn to code.',
+  date: '20.04.19',
+  url: 'https://github.com/charlottebrf/coder-newbie-advice',
+  image: coderNewbie
 }
 
 export const claraRules = {
-  paragraph: 'A toy project using Clojure Clara Rules to best understand Clara.',
-  url: 'https://github.com/charlottebrf/flat-chores-engine',
   title: 'Flat Rules Engine',
+  paragraph: 'A toy project using Clojure Clara Rules to best understand Clara.',
+  date: '10.12.18',
+  url: 'https://github.com/charlottebrf/flat-chores-engine',
   image: flatChore
 }
 
-export const newbie = {
-  paragraph: 'An open source website with free resources to learn to code.',
-  url: 'https://github.com/charlottebrf/coder-newbie-advice',
-  title: 'Coder Newbie',
-  image: coderNewbie
+export const clojureReduce = {
+  title: 'Rewriting core functions',
+  paragraph: 'A Clojure experiment in rewriting core functions to better understand them.',
+  date: '10.06.18',
+  url: 'https://github.com/charlottebrf/writing-my-own-reduce-function',
+  image: reduceRewrite
 }
 
 export const adaLab = {
