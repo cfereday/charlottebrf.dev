@@ -3,7 +3,8 @@ import { SnowHeader3 } from './Header'
 import { SnowParagraph } from './Paragraph'
 import { ProjectContainer, ImageAndLabelContainer } from './Containers'
 import { Links } from './Links'
-import { PortraitTalk } from './Portrait'
+import { Bordered } from './BaseProjectImage'
+import { Frame } from './Frame'
 
 interface TalkInfo {
   title: string
@@ -16,7 +17,9 @@ export const Talk = (info: TalkInfo) => {
   return (
     <ProjectContainer>
       <ImageAndLabelContainer>
-        <PortraitTalk src={info.logo} alt={info.title} />
+        <Bordered>
+          <Frame image={info.logo} title={info.title} />
+        </Bordered>
         <SnowHeader3>{info.title}</SnowHeader3>
         <SnowParagraph>{info.paragraph}</SnowParagraph>
         <SnowParagraph>

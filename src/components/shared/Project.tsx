@@ -17,6 +17,9 @@ export const Project = (info: ProjectInfo) => {
   return (
     <PageContainerCentre>
       <PortfolioImageAndLabelContainer>
+        <Bordered>
+          <Frame image={info.image} title={info.title} />
+        </Bordered>
         <SnowHeader3>{info.title}</SnowHeader3>
         <SnowParagraph>{info.paragraph}</SnowParagraph>
         <SnowParagraph>
@@ -26,9 +29,6 @@ export const Project = (info: ProjectInfo) => {
             here
           </Links>
         </SnowParagraph>
-        <Bordered>
-          <Frame image={info.image} title={info.title} />
-        </Bordered>
       </PortfolioImageAndLabelContainer>
     </PageContainerCentre>
   )
