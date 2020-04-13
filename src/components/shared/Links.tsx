@@ -5,7 +5,12 @@ export const Links = styled.a`
   transition: color 0.2s ease-out;
   color: ${NordicPalette.snowStorm.white};
   :hover {
+    cursor: pointer;
     color: ${NordicPalette.frost.darkBlue};
+  }
+
+  :active {
+    color: ${NordicPalette.frost.turquoise};
   }
 `
 
