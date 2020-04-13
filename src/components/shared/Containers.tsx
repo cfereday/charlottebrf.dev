@@ -31,6 +31,35 @@ export const PageContainerCentre = styled.div`
   margin: 25px 0;
 `
 
+export const CardPattern = styled.div`
+  flex-basis: 25%;
+  padding-left: 8px;
+  padding-right: 8px;
+  justify-content: space-around;
+`
+
+export const CardsPatternWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+`
+
+export const SameHeight = styled.div`
+  flex: 1;
+  /* Space between column */
+  margin: 0 8px;
+
+  /* Layout each column */
+  display: flex;
+  flex-direction: column;
+`
+
+export const SameHeightCard = styled.div`
+  /* Take available height */
+  flex: 1;
+`
+
 export const ImageAndLabelContainer = styled.div`
   justify-content: center;
   flex-direction: row;
