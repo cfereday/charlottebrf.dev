@@ -16,27 +16,6 @@
 .pages ul {
   list-style-type: none;
   display: flex;
-}
-
-.page {
-  flex: 1
-}
-
-
-@media all and (max-width: 600px) {
-  .pages ul {
-    flex-wrap: wrap;
-  }
-  .page > li {
-    flex-basis: 50%;
-  }
-}
-
-@media all and (max-width: 400px) {
-  .pages ul {
-    flex-basis: 100%;
-  }
-  .page {
-    order: 1;
-  }
+  justify-content: space-between;
+  padding: 1em 0;
 }
