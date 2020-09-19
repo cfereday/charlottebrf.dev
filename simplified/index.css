@@ -34,6 +34,10 @@ header {
   margin-bottom: 2em;
 }
 
+.space-below-smaller {
+  margin-bottom: 1em;
+}
+
 .pages ul {
   list-style-type: none;
   display: flex;
