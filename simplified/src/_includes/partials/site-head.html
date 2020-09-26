@@ -2,7 +2,7 @@
   <nav class="pages center">
     <ul class="placeholder-to-trigger-reset-css">
       {% for item in navigation.items %}
-      <li class="page"><a href="{{ item.url }}">
+      <li class="page"><a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
         {{ item.text }}
       </a></li>
       {% endfor %}
