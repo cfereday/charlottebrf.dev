@@ -1,5 +1,6 @@
 body {
   font-family: "IBM Plex Serif",serif;
+  color: #434C5E
 }
 
 p {
@@ -45,12 +46,12 @@ a {
   justify-content: space-evenly;
 }
 
-.space-below {
-  margin-bottom: 2em;
-}
-
 .space-below-smaller {
   margin-bottom: 1em;
+}
+
+.space-below-smallest {
+  margin-bottom: 0.5em;
 }
 
 .pages ul {
@@ -58,4 +59,62 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 1em 0;
+}
+
+.grid {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  position: relative;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.text-primary {
+  color: #8FBCBB
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-outline-primary {
+  color: #5E81AC;
+  background-color: transparent;
+  border-color: #88C0D0;
 }

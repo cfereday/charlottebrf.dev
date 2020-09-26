@@ -1,6 +1,6 @@
 ---
 title: 'Projects'
-layout: 'layouts/base.html'
+layout: 'layouts/projects.html'
 description: 'Here are my projects'
 social:
     partials/linkedin.html
