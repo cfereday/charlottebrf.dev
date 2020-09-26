@@ -2,9 +2,9 @@
   "name": "charlottebrf.dev",
   "version": "1.0.0",
   "description": "11ty version of website",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
-    "test": "npm t"
+    "start": "npx eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/cfereday/charlottebrf.dev/issues"
   },
-  "homepage": "https://github.com/cfereday/charlottebrf.dev#readme"
+  "homepage": "https://github.com/cfereday/charlottebrf.dev#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
 }

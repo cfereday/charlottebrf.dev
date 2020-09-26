@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86 shrink-to-fit=no">
+  <title>👩‍💻 {{ title }}</title>
+  <link rel="stylesheet" href="../../css/reset.css"/>
+  <link rel="stylesheet" href="../../css/index.css"/>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap"
+        media="all" onload="this.media='all'">
+</head>
+<body class="space-below">
+<header class="fancy-gradient-rainbow add-padding-top-and-bottom">
+  <nav class="pages center">
+    <ul class="placeholder-to-trigger-reset-css">
+      <li class="page"><a href="../partials/profile.html">Profile</a></li>
+      <li class="page"><a href="../partials/projects.html">Projects</a></li>
+      <li class="page"><a href="../partials/talks-and-blogs.html">Talks & Blogs</a></li>
+      <li class="page"><a href="../partials/community.html">Community</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="center main-content">
+  <h1 class="space-below-smaller">{{ title }}</h1>
+  <h2> {{ description }}</h2>
+  {% include "partials/blurb.html" %}
+</main>
+</body>
+<address class="center add-padding-top-and-bottom space-evenly">
+  {% include "partials/linkedin.html" %}
+  {% include "partials/twitter.html" %}
+  {% include "partials/github.html" %}
+</address>
+<footer class="center add-padding-top-and-bottom space-evenly">  <p>⚡️ 2020  © Charlotte Fereday</p></footer>
+</html>
