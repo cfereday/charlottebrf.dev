@@ -1,0 +1,23 @@
+{
+  "name": "charlottebrf.dev",
+  "version": "1.0.0",
+  "description": "11ty version of website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfereday/charlottebrf.dev.git"
+  },
+  "keywords": [
+    "static",
+    "website"
+  ],
+  "author": "Charlotte Fereday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfereday/charlottebrf.dev/issues"
+  },
+  "homepage": "https://github.com/cfereday/charlottebrf.dev#readme"
+}
