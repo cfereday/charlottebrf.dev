@@ -12,20 +12,11 @@
         media="all" onload="this.media='all'">
 </head>
 <body class="space-below">
-<header class="fancy-gradient-rainbow add-padding-top-and-bottom">
-  <nav class="pages center">
-    <ul class="placeholder-to-trigger-reset-css">
-      <li class="page"><a href="../partials/profile.html">Profile</a></li>
-      <li class="page"><a href="../partials/projects.html">Projects</a></li>
-      <li class="page"><a href="../partials/talks-and-blogs.html">Talks & Blogs</a></li>
-      <li class="page"><a href="../partials/community.html">Community</a></li>
-    </ul>
-  </nav>
-</header>
+{% include "partials/site-head.html" %}
 <main class="center main-content">
   <h1 class="space-below-smaller">{{ title }}</h1>
   <h2> {{ description }}</h2>
-  {% include "partials/blurb.html" %}
+  {% block content %}{% endblock %}
 </main>
 </body>
 <address class="center add-padding-top-and-bottom space-evenly">

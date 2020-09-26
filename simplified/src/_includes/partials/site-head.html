@@ -1,0 +1,11 @@
+<header class="fancy-gradient-rainbow add-padding-top-and-bottom">
+  <nav class="pages center">
+    <ul class="placeholder-to-trigger-reset-css">
+      {% for item in navigation.items %}
+      <li class="page"><a href="{{ item.url }}">
+        {{ item.text }}
+      </a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

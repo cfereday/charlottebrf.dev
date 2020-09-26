@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "Profile",
+      "url": "/profile/"
+    },
+    {
+      "text": "Projects",
+      "url": "/projects/"
+    },
+    {
+      "text": "Talks and blogs",
+      "url": "/talks-and-blogs/"
+    },
+    {
+      "text": "Community",
+      "url": "/community/"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/"
+    }
+  ]
+}
