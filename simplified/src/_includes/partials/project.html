@@ -1,9 +1,13 @@
+{% for project in projects.items %}
 <article class="card">
-  <img src="../../images/narwhale.jpg" class="card-img-top"
-       alt="Narwhale">
+  <img src="{{ project.image }}" class="card-img-top"
+       alt="{{ item.title }}">
   <div class="card-body">
-    <h1 class="h5 d-block my-3 text-primary space-below-smallest">My amazing project</h1>
-    <p class="space-below-smallest"> I'm baby distillery bespoke scenester affogato. Jean shorts synth deep v franzen heirloom chambray semiotics kogi hoodie messenger bag umami actually. Lyft fingerstache PBR&B YOLO, pour-over etsy literally.</p>
-    <a href="https://themes.gohugo.io//theme/liva-hugo/blog/post-10/" class="btn btn-outline-primary">Find out more</a>
+    <h1 class="h5 d-block my-3 text-primary space-below-smallest"> {{ project.title }}</h1>
+    <p class="bold-text"> Learning more about ...</p>
+    <p> {{ project.description }}</p>
+    <p class="space-below-smallest italics-text"> {{ project.tech }}</p>
+    <a href="{{ project.url }}" {{ helpers.getLinkActiveState(project.url, page.url) | safe }} class="btn btn-outline-primary"> Find out more here </a>
   </div>
 </article>
+{% endfor %}

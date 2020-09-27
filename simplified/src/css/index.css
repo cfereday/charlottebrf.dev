@@ -91,6 +91,9 @@ a {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+  display: grid;
+  align-items:  center;
+
 }
 
 .text-primary {
@@ -117,4 +120,12 @@ a {
   color: #5E81AC;
   background-color: transparent;
   border-color: #88C0D0;
+}
+
+.italics-text {
+  font-style: italic;
+}
+
+.bold-text {
+  font-weight: bold;
 }
