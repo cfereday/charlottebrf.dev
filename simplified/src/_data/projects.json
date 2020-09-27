@@ -5,35 +5,35 @@
       "description": "authentication & authorisation.",
       "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
       "url": "https://github.com/cfereday/pet-shop/tree/master/shop",
-      "image": "/images/petshop.png"
+      "image": "/images/projects/petshop.png"
     },
     {
       "title": "charlottebrf.dev",
       "description": "Jamstack via my personal website.",
       "tech": "11ty, Nunjucks, JavaScript, HTML, CSS",
       "url": "https://github.com/cfereday/charlottebrf.dev",
-      "image": "/images/charlottebrf.jpg"
+      "image": "/images/projects/charlottebrf.jpg"
     },
     {
       "title": "Flat rules engine",
       "description": "rules engines.",
       "tech": "Clojure, Clara Rules Engine",
       "url": "https://github.com/cfereday/flat-chores-engine",
-      "image": "/images/flatRules.jpg"
+      "image": "/images/projects/flatRules.jpg"
     },
     {
       "title": "Rewriting core fns",
       "description": "algorithm fundamentals.",
       "tech": "Clojure",
       "url": "https://github.com/charlottebrf/writing-my-own-reduce-function",
-      "image": "/images/rewritingCoreFns.jpg"
+      "image": "/images/projects/rewritingCoreFns.jpg"
     },
     {
       "title": "Coder newbie",
       "description": "Jamstack fundamentals.",
       "tech": "Gatsby, JavaScript, HTML, CSS",
       "url": "https://github.com/cfereday/coder-newbie-advice",
-      "image": "/images/coderNewbie.jpg"
+      "image": "/images/projects/coderNewbie.jpg"
     }
   ]
 }

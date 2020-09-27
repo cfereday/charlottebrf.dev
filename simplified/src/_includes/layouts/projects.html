@@ -1,6 +1,9 @@
 {% extends "layouts/base.html" %}
 {% block content %}
-<div class="grid">
-  {% include "partials/project.html" %}
-</div>
+  <div class="grid">
+    {% for project in projects.items %}
+      {% set card = project %}
+      {% include "partials/card.html" %}
+    {% endfor %}
+  </div>
 {% endblock %}

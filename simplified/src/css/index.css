@@ -50,9 +50,6 @@ a {
   margin-bottom: 1em;
 }
 
-.space-below-smaller {
-  margin-bottom: 0.5em;
-}
 
 .pages ul {
   list-style-type: none;
@@ -105,27 +102,31 @@ a {
   flex-direction: column;
 }
 
-.project-title-color {
+.card-title {
   color: #8FBCBB
 }
 
-.project-btn {
+.card-btn {
   text-align: center;
-  border: 1px solid transparent;
+  border: 1px solid #88C0D0;
   padding: .375rem .75rem;
   border-radius: .25rem;
   color: #5E81AC;
-  border-color: #88C0D0;
+}
+
+.card-tech {
+  font-size: .90rem;
+  font-style: italic;
 }
 
 .italics-text {
   font-style: italic;
 }
 
-.bold-text {
-  font-weight: bold;
-}
-
 .card-text {
   flex-grow: 1;
+}
+
+.stack-small {
+  
 }
