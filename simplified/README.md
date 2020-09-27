@@ -6,4 +6,4 @@ Experimenting porting the Gatsby site over to something more vanilla. See [this 
 
 ## How to run locally
 Using [serve](https://github.com/vercel/serve)
-Run `npx serve`
+Run `npm start`
