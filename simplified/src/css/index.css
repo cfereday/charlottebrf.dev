@@ -82,7 +82,7 @@ a {
 }
 
 .card-img-top {
-  width: 100%;
+  width: 50%;
   border-top-left-radius: calc(.25rem - 1px);
   border-top-right-radius: calc(.25rem - 1px);
 }
@@ -91,9 +91,8 @@ a {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
-  display: grid;
-  align-items:  center;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .text-primary {
@@ -128,4 +127,8 @@ a {
 
 .bold-text {
   font-weight: bold;
+}
+
+.card-text {
+  flex-grow: 1;
 }
