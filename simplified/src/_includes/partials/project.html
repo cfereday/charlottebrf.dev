@@ -4,10 +4,10 @@
     <img src="{{ project.image }}" alt="{{ item.title }}">
   </div>
   <div class="card-body">
-    <h1 class="project-title-color space-below-smallest"> {{ project.title }}</h1>
+    <h1 class="project-title-color space-below-smaller"> {{ project.title }}</h1>
     <p class="bold-text"> Learning more about ...</p>
     <p class="card-text"> {{ project.description }}</p>
-    <p class="italics-text space-below-smallest"> {{ project.tech }}</p>
+    <p class="italics-text space-below-smaller"> {{ project.tech }}</p>
     <a href="{{ project.url }}" {{ helpers.getLinkActiveState(project.url, page.url) | safe }} class="project-btn"> Find
       out more here </a>
   </div>

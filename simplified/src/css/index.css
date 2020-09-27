@@ -46,11 +46,11 @@ a {
   justify-content: space-evenly;
 }
 
-.space-below-smaller {
+.space-below {
   margin-bottom: 1em;
 }
 
-.space-below-smallest {
+.space-below-smaller {
   margin-bottom: 0.5em;
 }
 
