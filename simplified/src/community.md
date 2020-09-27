@@ -1,5 +1,5 @@
 ---
 title: 'Community'
-layout: 'layouts/base.html'
+layout: 'layouts/community.html'
 description: 'Here is more about work I have done in the tech community'
 ---

@@ -1,0 +1,9 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<div class="grid">
+  {% for activity in community.items %}
+  {% set card = activity %}
+  {% include "partials/card.html" %}
+  {% endfor %}
+</div>
+{% endblock %}
