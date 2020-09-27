@@ -3,7 +3,7 @@
     {
       "title": "Petshop",
       "description": "authentication & authorisation.",
-      "tech": "Javascript, Node, Postgres, Bcrypt, JWT",
+      "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
       "url": "https://github.com/cfereday/pet-shop/tree/master/shop",
       "image": "/images/narwhale.jpg"
     },
