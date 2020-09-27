@@ -1,13 +1,15 @@
 {% for project in projects.items %}
 <article class="card">
-  <img src="{{ project.image }}" class="card-image"
-       alt="{{ item.title }}">
+  <div class="frame">
+    <img src="{{ project.image }}" alt="{{ item.title }}">
+  </div>
   <div class="card-body">
     <h1 class="project-title-color space-below-smallest"> {{ project.title }}</h1>
     <p class="bold-text"> Learning more about ...</p>
     <p class="card-text"> {{ project.description }}</p>
     <p class="italics-text space-below-smallest"> {{ project.tech }}</p>
-    <a href="{{ project.url }}" {{ helpers.getLinkActiveState(project.url, page.url) | safe }} class="project-btn"> Find out more here </a>
+    <a href="{{ project.url }}" {{ helpers.getLinkActiveState(project.url, page.url) | safe }} class="project-btn"> Find
+      out more here </a>
   </div>
 </article>
 {% endfor %}
