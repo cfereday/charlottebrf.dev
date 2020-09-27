@@ -1,0 +1,9 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<div class="grid">
+  {% for talk in talks.items %}
+  {% set card = talk %}
+  {% include "partials/card.html" %}
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,5 +1,5 @@
 ---
 title: 'Talks and Blogs'
-layout: 'layouts/base.html'
-description: 'Here are my talks and blogs'
+layout: 'layouts/talks-and-blogs.html'
+description: 'Here are some of my talks and blogs'
 ---
