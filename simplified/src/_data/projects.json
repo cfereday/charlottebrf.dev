@@ -9,7 +9,7 @@
     },
     {
       "title": "charlottebrf.dev",
-      "description": "Jamstack via my personal website",
+      "description": "Jamstack via my personal website.",
       "tech": "11ty, Nunjucks, JavaScript, HTML, CSS",
       "url": "https://github.com/cfereday/charlottebrf.dev",
       "image": "/images/narwhale.jpg"
@@ -23,14 +23,14 @@
     },
     {
       "title": "Rewriting core fns",
-      "description": "algorithm fundamentals",
+      "description": "algorithm fundamentals.",
       "tech": "Clojure",
       "url": "https://github.com/charlottebrf/writing-my-own-reduce-function",
       "image": "/images/narwhale.jpg"
     },
     {
       "title": "Coder newbie",
-      "description": "Jamstack fundamentals",
+      "description": "Jamstack fundamentals.",
       "tech": "Gatsby, JavaScript, HTML, CSS",
       "url": "https://github.com/cfereday/coder-newbie-advice",
       "image": "/images/narwhale.jpg"
