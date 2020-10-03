@@ -6,7 +6,8 @@
       "url": "https://engineering.tes.com",
       "date": "August 2019 - Present",
       "techStack": "JavaScript, Node, React, Redux, MongoDB, SQL, RabbitMQ, ELK stack",
-      "blurb": " Working on the Security Engineering Team: Learning & evangelising Security best practices for engineers: AAA services management"
+      "blurb": "Working in the Security Engineering Team: AAA services management & taking modern approaches to application security",
+      "stylingLeftOrRight": "js--fadeInLeft"
     },
     {
       "company": "ThoughtWorks",
@@ -14,7 +15,8 @@
       "url": "https://www.thoughtworks.com/",
       "date": "September 2017 - July 2019",
       "techStack": "JavaScript, TypeScript, Clojure, Node, React, Redux, MongoDB, PostgreSQL, RabbitMQ, ELK stack",
-      "blurb": "Consulting as an engineer on a variety of different projects: FinTech startup, Challenger bank startup, Public sector"
+      "blurb": "Consulting as an engineer on a variety of different projects: FinTech startup, Challenger bank startup, Public sector",
+      "stylingLeftOrRight": "js--fadeInRight"
     },
     {
       "company": "Makers Academy",
@@ -22,7 +24,8 @@
       "url": "https://makers.tech/",
       "date": "April 2017 - August 2017",
       "techStack": "HTML, CSS, Ruby, JavaScript, SQL",
-      "blurb": "Full time coding bootcamp"
+      "blurb": "Full time coding bootcamp",
+      "stylingLeftOrRight": "js--fadeInLeft"
     },
     {
       "company": "King's Cultural Community",
@@ -30,7 +33,8 @@
       "url": "https://www.kcl.ac.uk/cultural",
       "date": "September 2013 - September 2015",
       "techStack": "Various technical collaborations",
-      "blurb": "Bringing academic research to life with technical collaborations"
+      "blurb": "Bringing academic research to life with technical collaborations",
+      "stylingLeftOrRight": "js--fadeInRight"
     },
     {
       "company": "King's College London",
@@ -38,7 +42,8 @@
       "url": "https://www.kcl.ac.uk/",
       "date": "September 2011 - September 2015",
       "techStack": "Academic research & teaching",
-      "blurb": "AHRC funded PhD analysing memory, selfhood & exile for understudied authors"
+      "blurb": "AHRC funded PhD analysing memory, selfhood & exile for understudied authors",
+      "stylingLeftOrRight": "js--fadeInLeft"
     }
   ]
 }
