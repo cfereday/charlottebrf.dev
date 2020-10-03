@@ -2,11 +2,11 @@
   "items": [
     {
       "company": "Tes Global Ltd",
-      "title": "Software Engineer: Security Engineering Team",
+      "title": "Software Engineer",
       "url": "https://engineering.tes.com",
-      "date": "August 2019 -",
+      "date": "August 2019 - Present",
       "techStack": "JavaScript, Node, React, Redux, MongoDB, SQL, RabbitMQ, ELK stack",
-      "blurb": "Learning & evangelising Security best practices for engineers: AAA services management"
+      "blurb": " Working on the Security Engineering Team: Learning & evangelising Security best practices for engineers: AAA services management"
     },
     {
       "company": "ThoughtWorks",
@@ -18,11 +18,11 @@
     },
     {
       "company": "Makers Academy",
-      "title": "Women in tech scholar: ThoughtWorks/ Makers Academy",
+      "title": "Women in Tech Scholar: ThoughtWorks/ Makers Academy",
       "url": "https://makers.tech/",
       "date": "April 2017 - August 2017",
       "techStack": "HTML, CSS, Ruby, JavaScript, SQL",
-      "blurb": "Full time immersive coding bootcamp"
+      "blurb": "Full time coding bootcamp"
     },
     {
       "company": "King's Cultural Community",
@@ -34,7 +34,7 @@
     },
     {
       "company": "King's College London",
-      "title": "Spanish & Latin American Studies Researcher",
+      "title": "Researcher: Spanish & Latin American Studies",
       "url": "https://www.kcl.ac.uk/",
       "date": "September 2011 - September 2015",
       "techStack": "Academic research & teaching",
