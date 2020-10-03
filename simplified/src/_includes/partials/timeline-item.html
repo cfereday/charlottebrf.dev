@@ -1,11 +1,11 @@
 <div class="timeline-item">
   <div class="timeline-img"></div>
   <div class="timeline-content {{ profile.stylingleftOrRight }}">
-    <div class="date">{{ profile.date }}</div>
-    <h2>{{ profile.title }}</h2>
-    <a href="{{ profile.url }}">{{ profile.company}}</a>
+    <div class="date">
+      <p>{{ profile.date }}</p></div>
+    <h3 class="stack-small">{{ profile.title }}, <a href="{{ profile.url }}">{{ profile.company}}</a></h3>
     <p>{{ profile.blurb }}</p>
-    <p>{{ profile.techStack }}</p>
+    <p class="italics-text stack-small">{{ profile.techStack }}</p>
   </div>
 </div>
 
