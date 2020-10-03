@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "company": "Tes Global Ltd",
+      "title": "Software Engineer: Security Engineering Team",
+      "url": "https://engineering.tes.com",
+      "date": "August 2019 -",
+      "techStack": "JavaScript, Node, React, Redux, MongoDB, SQL, RabbitMQ, ELK stack",
+      "blurb": "Learning & evangelising Security best practices for engineers: AAA services management"
+    },
+    {
+      "company": "ThoughtWorks",
+      "title": "Software Engineer",
+      "url": "https://www.thoughtworks.com/",
+      "date": "September 2017 - July 2019",
+      "techStack": "JavaScript, TypeScript, Clojure, Node, React, Redux, MongoDB, PostgreSQL, RabbitMQ, ELK stack",
+      "blurb": "Consulting as an engineer on a variety of different projects: FinTech startup, Challenger bank startup, Public sector"
+    },
+    {
+      "company": "Makers Academy",
+      "title": "Women in tech scholar: ThoughtWorks/ Makers Academy",
+      "url": "https://makers.tech/",
+      "date": "April 2017 - August 2017",
+      "techStack": "HTML, CSS, Ruby, JavaScript, SQL",
+      "blurb": "Full time immersive coding bootcamp"
+    },
+    {
+      "company": "King's Cultural Community",
+      "title": "Knowledge Exchange Associate: Arts & Digital",
+      "url": "https://www.kcl.ac.uk/cultural",
+      "date": "September 2013 - September 2015",
+      "techStack": "Various technical collaborations",
+      "blurb": "Bringing academic research to life with technical collaborations"
+    },
+    {
+      "company": "King's College London",
+      "title": "Spanish & Latin American Studies Researcher",
+      "url": "https://www.kcl.ac.uk/",
+      "date": "September 2011 - September 2015",
+      "techStack": "Academic research & teaching",
+      "blurb": "AHRC funded PhD analysing memory, selfhood & exile for understudied authors"
+    }
+  ]
+}

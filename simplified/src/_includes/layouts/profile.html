@@ -1,4 +1,17 @@
 {% extends "layouts/base.html" %}
+<header>
+  <div class="container text-center">
+    <h1>Work as a timeline</h1>
+    <p>Charlotte Fereday</p>
+  </div>
+</header>
 {% block content %}
-{% include "partials/profile.html" %}
+<section class="timeline">
+  <div class="container">
+    {% for experience in profile.items %}
+    {% set profile = experience %}
+    {% include "partials/timeline-item.html" %}
+    {% endfor %}
+  </div>
+</section>
 {% endblock %}
