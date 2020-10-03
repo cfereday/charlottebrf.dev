@@ -1,5 +1,5 @@
 ---
 title: 'Profile'
-layout: 'layouts/base.html'
+layout: 'layouts/profile.html'
 description: 'Here is my profile'
 ---
