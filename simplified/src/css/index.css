@@ -1,9 +1,6 @@
 body {
   font-family: "IBM Plex Serif", serif;
-  color: #434C5E
-}
-
-p {
+  color: #434C5E;
   font-size: 18px;
 }
 
@@ -31,9 +28,15 @@ a:hover, a:active, a:focus {
   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(143, 188, 187, 1) 39%, rgba(105, 135, 171, 1) 75%, rgba(136, 192, 208, 1) 100%);
 }
 
-.add-padding-top-and-bottom {
-  padding-top: 2em;
-  padding-bottom: 2em;
+
+.small-stack {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.large-stack {
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .center {
@@ -54,11 +57,6 @@ a:hover, a:active, a:focus {
   display: flex;
   justify-content: space-evenly;
 }
-
-.space-below {
-  margin-bottom: 1em;
-}
-
 
 .pages ul {
   list-style-type: none;
@@ -135,12 +133,6 @@ a:hover, a:active, a:focus {
 .card-text {
   flex-grow: 1;
 }
-
-.stack-small {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 
 .timeline {
   position: relative;

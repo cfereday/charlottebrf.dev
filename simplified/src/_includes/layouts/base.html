@@ -13,18 +13,18 @@
   <script src="https://unpkg.com/scrollreveal"></script>
   <script type="text/javascript" src="/js/scrolling.js"></script>
 </head>
-<body class="space-below">
+<body>
 {% include "partials/site-head.html" %}
 <main class="center main-content">
-  <h1 class="space-below">{{ title }}</h1>
-  <h2 class="space-below"> {{ description }}</h2>
+  <h1 class="small-stack">{{ title }}</h1>
+  <h2> {{ description }}</h2>
   {% block content %}{% endblock %}
-  <address class="center add-padding-top-and-bottom space-evenly">
+  <address class="center large-stack space-evenly">
     {% include "partials/social/linkedin.html" %}
     {% include "partials/social/twitter.html" %}
     {% include "partials/social/github.html" %}
   </address>
-  <footer class="center space-evenly">  <p>⚡️ 2020  © Charlotte Fereday</p></footer>
 </main>
+<footer class="center space-evenly">  <p>⚡️ 2020  © Charlotte Fereday</p></footer>
 </body>
 </html>
