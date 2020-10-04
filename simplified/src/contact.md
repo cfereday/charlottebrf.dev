@@ -1,5 +1,5 @@
 ---
 title: 'Contact'
 layout: 'layouts/base.html'
-description: 'Here is how you can contact me'
+description: 'The best way to contact me is via these channels'
 ---
