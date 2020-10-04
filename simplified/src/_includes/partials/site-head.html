@@ -1,6 +1,6 @@
 <header class="fancy-gradient-rainbow small-stack">
   <nav>
-    <ul class="menu placeholder-to-trigger-reset-css">
+    <ul class="menu">
       {% for item in navigation.items %}
       <li class="item"><a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
         {{ item.text }}
