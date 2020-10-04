@@ -58,11 +58,15 @@ a:hover, a:active, a:focus {
   justify-content: space-evenly;
 }
 
-.pages ul {
-  list-style-type: none;
+.menu {
   display: flex;
-  justify-content: space-between;
-  padding: 1em 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menu li {
+  padding: 1em 1em;
 }
 
 .grid {
