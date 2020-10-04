@@ -164,14 +164,19 @@ a:hover, a:active, a:focus {
   right: auto;
   left: 0;
 }
+/*fake html after .timeline-content ...*/
 .timeline-item:nth-child(even) .timeline-content::after {
+  /*with no visible content...*/
   content: "";
-  position: absolute;
-  border-style: solid;
+  /*and no height or width*/
   width: 0;
   height: 0;
+  /*place this as the following...*/
+  position: absolute;
   top: 30px;
   left: -15px;
+  /*what we will see is a border...*/
+  border-style: solid;
   border-width: 10px 15px 10px 0;
   border-color: transparent #f5f5f5 transparent transparent;
 }
@@ -223,14 +228,6 @@ a:hover, a:active, a:focus {
     float: none;
   }
   .timeline .timeline-item:nth-child(odd) .timeline-content::after {
-    content: "";
-    position: absolute;
-    border-style: solid;
-    width: 0;
-    height: 0;
-    top: 30px;
-    left: -15px;
-    border-width: 10px 15px 10px 0;
-    border-color: transparent #f5f5f5 transparent transparent;
+    display: none;
   }
 }
