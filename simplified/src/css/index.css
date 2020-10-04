@@ -23,11 +23,6 @@ a:hover, a:active, a:focus {
   background: linear-gradient(90deg, rgba(247, 149, 51, 0.101961) 0, rgba(243, 112, 85, 0.101961) 15%, rgba(239, 78, 123, 0.101961) 30%, rgba(161, 102, 171, 0.101961) 44%, rgba(80, 115, 184, 0.101961) 58%, rgba(16, 152, 173, 0.101961) 72%, rgba(7, 179, 155, 0.101961) 86%, rgba(109, 186, 130, 0.101961) 100%)
 }
 
-.fancy-gradient-ocean {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(143, 188, 187, 1) 39%, rgba(105, 135, 171, 1) 75%, rgba(136, 192, 208, 1) 100%);
-}
-
 
 .small-stack {
   padding-top: 1em;
@@ -46,6 +41,11 @@ a:hover, a:active, a:focus {
   max-width: 70ch;
   padding-left: 0.5em;
   padding-right: 0.5em;
+}
+
+.main-content-smaller {
+  position: relative;
+  min-height: 15vh;
 }
 
 .main-content {
