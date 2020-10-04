@@ -11,6 +11,8 @@ a {
   border-bottom: 3px solid #8FBCBB;
   text-decoration: none;
   color: inherit;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 a:hover, a:active, a:focus {
@@ -38,7 +40,7 @@ a:hover, a:active, a:focus {
   box-sizing: content-box;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100ch;
+  max-width: 70ch;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }

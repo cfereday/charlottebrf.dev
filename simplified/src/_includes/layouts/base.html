@@ -19,12 +19,12 @@
   <h1 class="space-below">{{ title }}</h1>
   <h2 class="space-below"> {{ description }}</h2>
   {% block content %}{% endblock %}
+  <address class="center add-padding-top-and-bottom space-evenly">
+    {% include "partials/social/linkedin.html" %}
+    {% include "partials/social/twitter.html" %}
+    {% include "partials/social/github.html" %}
+  </address>
+  <footer class="center space-evenly">  <p>⚡️ 2020  © Charlotte Fereday</p></footer>
 </main>
 </body>
-<address class="center add-padding-top-and-bottom space-evenly">
-  {% include "partials/social/linkedin.html" %}
-  {% include "partials/social/twitter.html" %}
-  {% include "partials/social/github.html" %}
-</address>
-<footer class="center add-padding-top-and-bottom space-evenly">  <p>⚡️ 2020  © Charlotte Fereday</p></footer>
 </html>
