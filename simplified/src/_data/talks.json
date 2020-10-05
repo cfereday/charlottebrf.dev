@@ -1,29 +1,33 @@
 {
   "items": [
     {
-      "title": "Node Girls & Women of Security 2020",
-      "description": "Authentication & Authorisation: addressing basic security concerns when handling Authentication & Authorisation in NodeJs apps.",
+      "title": "Node Girls & WoSEC",
+      "year": "2020",
+      "description": "Authentication & Authorisation 101.",
       "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
       "url": "https://engineering.tes.com/post/authentication-and-authorisation",
       "image": "/images/talksAndBlogs/nodeGirls.png"
     },
     {
-      "title": "ClojureX 2018",
+      "title": "ClojureX",
+      "year":  "2018",
       "description": "Beginners Introduction to Clara Rules Engine.",
       "tech": "Clojure, Clara Rules",
       "url": "https://medium.com/@charlottebrf/beginners-introduction-to-clara-rules-a92b02000ceb",
       "image": "/images/talksAndBlogs/clojureX.jpg"
     },
     {
-      "title": "ThoughtWorks Away Day 2018",
-      "description": "What I learnt from rewriting core functions",
+      "title": "ThoughtWorks Away Day",
+      "year":  "2018",
+      "description": "What I learnt from rewriting core functions.",
       "tech": "Clojure, Algorithms",
-      "url": "https://medium.com/@charlottebrf/what-i-learnt-from-re-writing-core-functions-c31ade1359a",
+      "url": "https://medium.com/@charlottebrf/what-i-learnt-from-re-writing-core-functions-c31ade1359a6",
       "image": "/images/talksAndBlogs/thoughtworks.jpg"
     },
     {
-      "title": "Hack Your Career: Introduction to tech 2018",
-      "description": "Switching into a tech career",
+      "title": "Hack Your Career",
+      "year":  "2018",
+      "description": "Switching into tech.",
       "tech": "Career changers",
       "url": "https://medium.com/@charlottebrf/notes-to-a-junior-developer-from-a-tech-lead-599e4ab7aac4",
       "image": "/images/talksAndBlogs/hyc.jpeg"

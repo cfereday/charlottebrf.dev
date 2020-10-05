@@ -2,28 +2,28 @@
   "items": [
     {
       "title": "Petshop",
-      "description": "authentication & authorisation.",
+      "description": "An authentication & authorisation experiment.",
       "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
       "url": "https://github.com/cfereday/pet-shop/tree/master/shop",
       "image": "/images/projects/petshop.png"
     },
     {
       "title": "charlottebrf.dev",
-      "description": "Jamstack via my personal website.",
+      "description": "More Jamstack via my personal website.",
       "tech": "11ty, Nunjucks, JavaScript, HTML, CSS",
       "url": "https://github.com/cfereday/charlottebrf.dev",
       "image": "/images/projects/charlottebrf.jpg"
     },
     {
-      "title": "Flat rules engine",
-      "description": "rules engines.",
+      "title": "Flat chores engine",
+      "description": "Learning about rules engines.",
       "tech": "Clojure, Clara Rules Engine",
       "url": "https://github.com/cfereday/flat-chores-engine",
       "image": "/images/projects/flatRules.jpg"
     },
     {
       "title": "Rewriting core fns",
-      "description": "algorithm fundamentals.",
+      "description": "Algorithm fundamentals.",
       "tech": "Clojure",
       "url": "https://github.com/charlottebrf/writing-my-own-reduce-function",
       "image": "/images/projects/rewritingCoreFns.jpg"
