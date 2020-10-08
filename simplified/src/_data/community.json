@@ -1,46 +1,46 @@
 {
   "items": [
     {
-      "title": "Black CodHer (2020)",
+      "title": "Black CodHer",
       "description": "Technical mentor",
       "tech": "JavaScript, React, Node, TDD, HTML, CSS, Command line",
       "url": "https://blackcodher.com/",
-      "image": "/images/community/blackCodHer.png"
+      "image": "/images/community/blackCodeHer.jpg"
     },
     {
-      "title": "Adalab (2019 - 2020)",
+      "title": "Adalab",
       "description": "Technical mentor",
       "tech": "JavaScript, Node, TDD, HTML, CSS, Command line",
       "url": "https://adalab.es/hazte-voluntario/",
-      "image": "/images/community/ada.png"
+      "image": "/images/community/adalab.png"
     },
     {
-      "title": "School of Code (2018 -2019)",
+      "title": "School of Code",
       "description": "Technical Mentor",
       "tech": "JavaScript, Node, TDD, HTML, CSS, Command line",
       "url": "https://schoolofcode.co.uk",
       "image": "/images/community/soc.jpg"
     },
     {
-      "title": "Ideating the Modern Language Curriculum (2019)",
-      "description": "Organiser of a collaboration with educators on impact of tech for Modern Language learning",
-      "tech": "Tech, Modern Languages",
-      "url": "https://languageacts.org",
-      "image": "/images/community/language-acts.png"
+      "title": "Women of Security",
+      "description": "Member",
+      "tech": "Security, CTF",
+      "url": "https://www.womenofsecurity.com/",
+      "image": "/images/community/WoSEC.png"
     },
     {
-      "title": "Glasgow Clojure Dojo (2018 -2019)",
-      "description": "Organiser of meetup bringing together all levels to improve Clojure skills dojos",
+      "title": "Ideating the ML Curriculum",
+      "description": "Organiser",
+      "tech": "Tech, Modern Languages",
+      "url": "https://languageacts.org",
+      "image": "/images/community/language-acts.jpg"
+    },
+    {
+      "title": "Glasgow Clojure Dojo",
+      "description": "Organiser",
       "tech": "Clojure",
       "url": "https://www.meetup.com/Glasgow-Software-Development-Meetup/",
       "image": "/images/community/glasgow.jpeg"
-    },
-    {
-      "title": "Ideating an Equitable Tech Futur(2017)",
-      "description": "Organiser of a day event to explore using tech for good with charities & third sector",
-      "tech": "Tech, Charities",
-      "url": "https://twitter.com/hashtag/equitabletechfuture/",
-      "image": "/images/community/eqtech.jpeg"
     }
   ]
 }
