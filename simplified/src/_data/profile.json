@@ -28,13 +28,22 @@
       "stylingLeftOrRight": "js--fadeInLeft"
     },
     {
+      "company": "Code First Girls",
+      "title": "Programmes Manager",
+      "url": "https://codefirstgirls.org.uk/",
+      "date": "September 2015 - March 2017",
+      "techStack": "HTML, CSS, JavaScript, Ruby",
+      "blurb": "Stakeholder management & community building",
+      "stylingLeftOrRight": "js--fadeInRight"
+    },
+    {
       "company": "King's Cultural Community",
       "title": "Knowledge Exchange Associate",
       "url": "https://www.kcl.ac.uk/cultural",
       "date": "September 2013 - September 2015",
       "techStack": "Various technical collaborations",
       "blurb": "Bringing academic research to life with technical collaborations",
-      "stylingLeftOrRight": "js--fadeInRight"
+      "stylingLeftOrRight": "js--fadeInLeft"
     },
     {
       "company": "King's College London",
@@ -43,7 +52,7 @@
       "date": "September 2011 - September 2015",
       "techStack": "Academic research & teaching",
       "blurb": "AHRC funded PhD",
-      "stylingLeftOrRight": "js--fadeInLeft"
+      "stylingLeftOrRight": "js--fadeInRight"
     }
   ]
 }
