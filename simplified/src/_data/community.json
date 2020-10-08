@@ -3,21 +3,21 @@
     {
       "title": "Black CodHer",
       "description": "Technical mentor",
-      "tech": "JavaScript, React, Node, TDD, HTML, CSS, Command line",
+      "tech": "HTML, CSS, Command line, JavaScript, React, Node, Mongodb, Python" ,
       "url": "https://blackcodher.com/",
       "image": "/images/community/blackCodeHer.jpg"
     },
     {
       "title": "Adalab",
       "description": "Technical mentor",
-      "tech": "JavaScript, Node, TDD, HTML, CSS, Command line",
+      "tech": "HTML, CSS, Command line, JavaScript, TDD",
       "url": "https://adalab.es/hazte-voluntario/",
       "image": "/images/community/adalab.png"
     },
     {
       "title": "School of Code",
       "description": "Technical Mentor",
-      "tech": "JavaScript, Node, TDD, HTML, CSS, Command line",
+      "tech": "HTML, CSS, Command line, JavaScript, React, TDD",
       "url": "https://schoolofcode.co.uk",
       "image": "/images/community/soc.jpg"
     },
