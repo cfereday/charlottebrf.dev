@@ -4,7 +4,8 @@
   "description": "11ty version of website",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve"
+    "start": "npx eleventy --serve",
+    "prod": "npx eleventy"
   },
   "repository": {
     "type": "git",
