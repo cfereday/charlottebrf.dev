@@ -1,29 +1,36 @@
 {
   "items": [
     {
+      "title": "Try Hack Me",
+      "description": "Complete Beginner path",
+      "tech": "Linux, Web App Security, Network Security, Python, Bash",
+      "url": "https://github.com/cfereday/try-hack-me-complete-beginner",
+      "image": "/images/projects/security.png"
+    },
+    {
       "title": "Petshop",
-      "description": "An authentication & authorisation experiment.",
+      "description": "Authentication & authorisation",
       "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
       "url": "https://github.com/cfereday/pet-shop/tree/master/shop",
       "image": "/images/projects/petshop.png"
     },
     {
       "title": "charlottebrf.dev",
-      "description": "More Jamstack via my personal website.",
+      "description": "JAMstack website",
       "tech": "11ty, Nunjucks, JavaScript, HTML, CSS",
       "url": "https://github.com/cfereday/charlottebrf.dev",
       "image": "/images/projects/charlottebrf.png"
     },
     {
       "title": "Flat chores engine",
-      "description": "Learning about rules engines.",
+      "description": "Learning about rules engines",
       "tech": "Clojure, Clara Rules Engine",
       "url": "https://github.com/cfereday/flat-chores-engine",
       "image": "/images/projects/flatRules.png"
     },
     {
       "title": "Rewriting core fns",
-      "description": "Algorithm fundamentals.",
+      "description": "Algorithm fundamentals",
       "tech": "Clojure",
       "url": "https://github.com/charlottebrf/writing-my-own-reduce-function",
       "image": "/images/projects/rewritingCoreFns.png"
@@ -31,8 +38,8 @@
     },
     {
       "title": "Coder newbie",
-      "description": "Jamstack fundamentals.",
-      "tech": "Gatsby, JavaScript, HTML, CSS",
+      "description": "JAMstack & React website",
+      "tech": "Gatsby, JavaScript, React, HTML, CSS",
       "url": "https://github.com/cfereday/coder-newbie-advice",
       "image": "/images/projects/coderNewbie.png"
     }
