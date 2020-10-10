@@ -5,42 +5,48 @@
       "description": "Technical mentor",
       "tech": "HTML, CSS, Command line, JavaScript, React, Node, Mongodb, Python" ,
       "url": "https://blackcodher.com/",
-      "image": "/images/community/blackCodHer.png"
+      "image": "/images/community/blackCodHer.png",
+      "button": "Learn more here"
     },
     {
       "title": "Adalab",
       "description": "Technical mentor",
       "tech": "HTML, CSS, Command line, JavaScript, TDD",
       "url": "https://adalab.es/hazte-voluntario/",
-      "image": "/images/community/adalab.png"
+      "image": "/images/community/adalab.png",
+      "button": "Learn more here"
     },
     {
       "title": "School of Code",
       "description": "Technical Mentor",
       "tech": "HTML, CSS, Command line, JavaScript, React, TDD",
       "url": "https://schoolofcode.co.uk",
-      "image": "/images/community/soc.jpg"
+      "image": "/images/community/soc.jpg",
+      "button": "Learn more here"
     },
     {
       "title": "Women of Security",
       "description": "Member",
       "tech": "Security, CTF",
       "url": "https://www.womenofsecurity.com/",
-      "image": "/images/community/WoSEC.png"
+      "image": "/images/community/WoSEC.png",
+      "button": "Learn more here"
     },
     {
       "title": "Ideating the ML Curriculum",
       "description": "Organiser",
       "tech": "Tech, Modern Languages",
       "url": "https://languageacts.org",
-      "image": "/images/community/language-acts.jpg"
+      "image": "/images/community/language-acts.jpg",
+      "button": "Learn more here"
     },
     {
       "title": "Glasgow Clojure Dojo",
       "description": "Organiser",
       "tech": "Clojure",
       "url": "https://www.meetup.com/Glasgow-Software-Development-Meetup/",
-      "image": "/images/community/glasgow.jpeg"
+      "image": "/images/community/glasgow.jpeg",
+      "button": "Learn more here"
     }
   ]
 }

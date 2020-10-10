@@ -5,42 +5,48 @@
       "description": "Authentication & Authorisation 101",
       "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
       "url": "https://engineering.tes.com/post/authentication-and-authorisation",
-      "image": "/images/talksAndBlogs/nodeGirls.png"
+      "image": "/images/talksAndBlogs/nodeGirls.png",
+      "button": "Read more here"
     },
     {
       "title": "ClojureX",
       "description": "Introduction to Clara Rules Engine",
       "tech": "Clojure, Clara Rules",
       "url": "https://medium.com/@charlottebrf/beginners-introduction-to-clara-rules-a92b02000ceb",
-      "image": "/images/talksAndBlogs/clojureX.jpg"
+      "image": "/images/talksAndBlogs/clojureX.jpg",
+      "button": "Read more here"
     },
     {
       "title": "ThoughtWorks",
       "description": "Rewriting core functions",
       "tech": "Clojure, Algorithms",
       "url": "https://medium.com/@charlottebrf/what-i-learnt-from-re-writing-core-functions-c31ade1359a6",
-      "image": "/images/talksAndBlogs/thoughtworks.jpg"
+      "image": "/images/talksAndBlogs/thoughtworks.jpg",
+      "button": "Read more here"
     },
     {
       "title": "Visualising documentation",
       "description": "JavaScript core functions",
       "tech": "JavaScript",
       "url": "https://dev.to/charlottebrf_99",
-      "image": "/images/talksAndBlogs/documentation-visualised.png"
+      "image": "/images/talksAndBlogs/documentation-visualised.png",
+      "button": "See more here"
     },
     {
       "title": "Level up with JavaScript",
       "description": "Key concepts sketched",
       "tech": "JavaScript",
       "url": "https://medium.com/@charlottebrf/level-up-with-javascript-412b4cb1e741",
-      "image": "/images/talksAndBlogs/level-up-js.png"
+      "image": "/images/talksAndBlogs/level-up-js.png",
+      "button": "Read more here"
     },
     {
       "title": "URI encoding",
       "description": "Encoding sketched",
       "tech": "Encoding",
       "url": "https://medium.com/@charlottebrf/level-up-with-javascript-412b4cb1e741",
-      "image": "/images/talksAndBlogs/uri-encoding.png"
+      "image": "/images/talksAndBlogs/uri-encoding.png",
+      "button": "Read more here"
     }
   ]
 }

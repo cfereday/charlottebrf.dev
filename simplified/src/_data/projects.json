@@ -5,35 +5,40 @@
       "description": "Complete Beginner path",
       "tech": "Linux, Web App Security, Network Security, Python, Bash",
       "url": "https://github.com/cfereday/try-hack-me-complete-beginner",
-      "image": "/images/projects/security.png"
+      "image": "/images/projects/security.png",
+      "button": "Checkout here"
     },
     {
       "title": "Petshop",
       "description": "Authentication & authorisation",
       "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
       "url": "https://github.com/cfereday/pet-shop/tree/master/shop",
-      "image": "/images/projects/petshop.jpg"
+      "image": "/images/projects/petshop.jpg",
+      "button": "Checkout here"
     },
     {
       "title": "charlottebrf.dev",
       "description": "JAMstack website",
       "tech": "11ty, Nunjucks, JavaScript, HTML, CSS",
       "url": "https://github.com/cfereday/charlottebrf.dev",
-      "image": "/images/projects/charlottebrf.png"
+      "image": "/images/projects/charlottebrf.png",
+      "button": "Checkout here"
     },
     {
       "title": "Flat chores engine",
       "description": "Learning about rules engines",
       "tech": "Clojure, Clara Rules Engine",
       "url": "https://github.com/cfereday/flat-chores-engine",
-      "image": "/images/projects/flatRules.png"
+      "image": "/images/projects/flatRules.png",
+      "button": "Checkout here"
     },
     {
       "title": "Rewriting core fns",
       "description": "Algorithm fundamentals",
       "tech": "Clojure",
       "url": "https://github.com/charlottebrf/writing-my-own-reduce-function",
-      "image": "/images/projects/rewritingCoreFns.png"
+      "image": "/images/projects/rewritingCoreFns.png",
+      "button": "Checkout here"
 
     },
     {
@@ -41,7 +46,8 @@
       "description": "JAMstack & React website",
       "tech": "Gatsby, JavaScript, React, HTML, CSS",
       "url": "https://github.com/cfereday/coder-newbie-advice",
-      "image": "/images/projects/coderNewbie.png"
+      "image": "/images/projects/coderNewbie.png",
+      "button": "Checkout here"
     }
   ]
 }
