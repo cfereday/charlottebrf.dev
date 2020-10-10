@@ -12,7 +12,7 @@
       "description": "Authentication & authorisation",
       "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
       "url": "https://github.com/cfereday/pet-shop/tree/master/shop",
-      "image": "/images/projects/petshop.png"
+      "image": "/images/projects/petshop.jpg"
     },
     {
       "title": "charlottebrf.dev",
