@@ -12,28 +12,29 @@
       "description": "More Jamstack via my personal website.",
       "tech": "11ty, Nunjucks, JavaScript, HTML, CSS",
       "url": "https://github.com/cfereday/charlottebrf.dev",
-      "image": "/images/projects/charlottebrf.jpg"
+      "image": "/images/projects/charlottebrf.png"
     },
     {
       "title": "Flat chores engine",
       "description": "Learning about rules engines.",
       "tech": "Clojure, Clara Rules Engine",
       "url": "https://github.com/cfereday/flat-chores-engine",
-      "image": "/images/projects/flatRules.jpg"
+      "image": "/images/projects/flatRules.png"
     },
     {
       "title": "Rewriting core fns",
       "description": "Algorithm fundamentals.",
       "tech": "Clojure",
       "url": "https://github.com/charlottebrf/writing-my-own-reduce-function",
-      "image": "/images/projects/rewritingCoreFns.jpg"
+      "image": "/images/projects/rewritingCoreFns.png"
+
     },
     {
       "title": "Coder newbie",
       "description": "Jamstack fundamentals.",
       "tech": "Gatsby, JavaScript, HTML, CSS",
       "url": "https://github.com/cfereday/coder-newbie-advice",
-      "image": "/images/projects/coderNewbie.jpg"
+      "image": "/images/projects/coderNewbie.png"
     }
   ]
 }
