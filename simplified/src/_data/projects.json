@@ -5,7 +5,7 @@
       "description": "Complete Beginner path",
       "tech": "Linux, Web App Security, Network Security, Python, Bash",
       "url": "https://github.com/cfereday/try-hack-me-complete-beginner",
-      "image": "/images/projects/security.png",
+      "image": "/images/projects/securityv1.png",
       "button": "Checkout here"
     },
     {
@@ -13,7 +13,7 @@
       "description": "Authentication & authorisation",
       "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
       "url": "https://github.com/cfereday/pet-shop/tree/master/shop",
-      "image": "/images/projects/petshop.jpg",
+      "image": "/images/projects/petshopv1.jpg",
       "button": "Checkout here"
     },
     {
@@ -21,7 +21,7 @@
       "description": "JAMstack website",
       "tech": "11ty, Nunjucks, JavaScript, HTML, CSS",
       "url": "https://github.com/cfereday/charlottebrf.dev",
-      "image": "/images/projects/charlottebrf.png",
+      "image": "/images/projects/charlottebrfv1.png",
       "button": "Checkout here"
     },
     {
@@ -29,7 +29,7 @@
       "description": "Learning about rules engines",
       "tech": "Clojure, Clara Rules Engine",
       "url": "https://github.com/cfereday/flat-chores-engine",
-      "image": "/images/projects/flatRules.png",
+      "image": "/images/projects/flatRulesv1.png",
       "button": "Checkout here"
     },
     {
@@ -37,7 +37,7 @@
       "description": "Algorithm fundamentals",
       "tech": "Clojure",
       "url": "https://github.com/charlottebrf/writing-my-own-reduce-function",
-      "image": "/images/projects/rewritingCoreFns.png",
+      "image": "/images/projects/rewritingCoreFnsv1.png",
       "button": "Checkout here"
 
     },
@@ -46,7 +46,7 @@
       "description": "JAMstack & React website",
       "tech": "Gatsby, JavaScript, React, HTML, CSS",
       "url": "https://github.com/cfereday/coder-newbie-advice",
-      "image": "/images/projects/coderNewbie.png",
+      "image": "/images/projects/coderNewbiev1.png",
       "button": "Checkout here"
     }
   ]
