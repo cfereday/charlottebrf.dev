@@ -5,7 +5,7 @@
       "description": "Authentication & Authorisation 101",
       "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
       "url": "https://engineering.tes.com/post/authentication-and-authorisation",
-      "image": "/images/talksAndBlogs/nodeGirls.png",
+      "image": "/images/talksAndBlogs/nodeGirlsv1.png",
       "button": "Read more here"
     },
     {
@@ -13,7 +13,7 @@
       "description": "Introduction to Clara Rules Engine",
       "tech": "Clojure, Clara Rules",
       "url": "https://medium.com/@charlottebrf/beginners-introduction-to-clara-rules-a92b02000ceb",
-      "image": "/images/talksAndBlogs/clojureX.jpg",
+      "image": "/images/talksAndBlogs/clojureXv1.png",
       "button": "Read more here"
     },
     {
@@ -21,7 +21,7 @@
       "description": "Rewriting core functions",
       "tech": "Clojure, Algorithms",
       "url": "https://medium.com/@charlottebrf/what-i-learnt-from-re-writing-core-functions-c31ade1359a6",
-      "image": "/images/talksAndBlogs/thoughtworks.jpg",
+      "image": "/images/talksAndBlogs/thoughtworksv1.png",
       "button": "Read more here"
     },
     {
@@ -29,7 +29,7 @@
       "description": "JavaScript core functions",
       "tech": "JavaScript",
       "url": "https://dev.to/charlottebrf_99",
-      "image": "/images/talksAndBlogs/documentation-visualised.png",
+      "image": "/images/talksAndBlogs/documentation-visualisedv1.png",
       "button": "See more here"
     },
     {
@@ -37,7 +37,7 @@
       "description": "Key concepts sketched",
       "tech": "JavaScript",
       "url": "https://medium.com/@charlottebrf/level-up-with-javascript-412b4cb1e741",
-      "image": "/images/talksAndBlogs/level-up-js.png",
+      "image": "/images/talksAndBlogs/level-up-jsv1.png",
       "button": "Read more here"
     },
     {
@@ -45,7 +45,7 @@
       "description": "Encoding sketched",
       "tech": "Encoding",
       "url": "https://medium.com/@charlottebrf/level-up-with-javascript-412b4cb1e741",
-      "image": "/images/talksAndBlogs/uri-encoding.png",
+      "image": "/images/talksAndBlogs/uri-encodingv1.png",
       "button": "Read more here"
     }
   ]
