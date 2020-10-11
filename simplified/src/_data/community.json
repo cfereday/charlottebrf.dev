@@ -5,7 +5,7 @@
       "description": "Technical mentor",
       "tech": "HTML, CSS, Command line, JavaScript, React, Node, Mongodb, Python" ,
       "url": "https://blackcodher.com/",
-      "image": "/images/community/blackCodHer.png",
+      "image": "/images/community/blackCodHerv1.png",
       "button": "Learn more here"
     },
     {
@@ -13,7 +13,7 @@
       "description": "Technical mentor",
       "tech": "HTML, CSS, Command line, JavaScript, TDD",
       "url": "https://adalab.es/hazte-voluntario/",
-      "image": "/images/community/adalab.png",
+      "image": "/images/community/adalabv1.png",
       "button": "Learn more here"
     },
     {
@@ -21,7 +21,7 @@
       "description": "Technical Mentor",
       "tech": "HTML, CSS, Command line, JavaScript, React, TDD",
       "url": "https://schoolofcode.co.uk",
-      "image": "/images/community/soc.jpg",
+      "image": "/images/community/socv1.png",
       "button": "Learn more here"
     },
     {
@@ -29,7 +29,7 @@
       "description": "Member",
       "tech": "Security, CTF",
       "url": "https://www.womenofsecurity.com/",
-      "image": "/images/community/WoSEC.png",
+      "image": "/images/community/WoSECv1.png",
       "button": "Learn more here"
     },
     {
@@ -37,7 +37,7 @@
       "description": "Organiser",
       "tech": "Tech, Modern Languages",
       "url": "https://languageacts.org",
-      "image": "/images/community/language-acts.jpg",
+      "image": "/images/community/language-actsv1.png",
       "button": "Learn more here"
     },
     {
@@ -45,7 +45,7 @@
       "description": "Organiser",
       "tech": "Clojure",
       "url": "https://www.meetup.com/Glasgow-Software-Development-Meetup/",
-      "image": "/images/community/glasgow.jpeg",
+      "image": "/images/community/glasgowv1.png",
       "button": "Learn more here"
     }
   ]
