@@ -2,7 +2,7 @@
   "items": [
     {
       "title": "Try Hack Me",
-      "description": "Complete Beginner path",
+      "description": "Complete Beginner path (work in progress)",
       "tech": "Linux, Web App Security, Network Security, Python, Bash",
       "url": "https://github.com/cfereday/try-hack-me-complete-beginner",
       "image": "/images/projects/securityv1.png",
