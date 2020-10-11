@@ -3,7 +3,7 @@
     {
       "title": "Black CodHer",
       "description": "Technical mentor",
-      "tech": "HTML, CSS, Command line, JavaScript, React, Node, Mongodb, Python" ,
+      "tech": "HTML, CSS, Git, JavaScript, React, Node, Mongodb, Python" ,
       "url": "https://blackcodher.com/",
       "image": "/images/community/blackCodHerv1.png",
       "button": "Learn more here"
@@ -11,7 +11,7 @@
     {
       "title": "Adalab",
       "description": "Technical mentor",
-      "tech": "HTML, CSS, Command line, JavaScript, TDD",
+      "tech": "HTML, CSS, Git, JavaScript, TDD",
       "url": "https://adalab.es/hazte-voluntario/",
       "image": "/images/community/adalabv1.png",
       "button": "Learn more here"
@@ -19,7 +19,7 @@
     {
       "title": "School of Code",
       "description": "Technical Mentor",
-      "tech": "HTML, CSS, Command line, JavaScript, React, TDD",
+      "tech": "HTML, CSS, Git, JavaScript, React, TDD",
       "url": "https://schoolofcode.co.uk",
       "image": "/images/community/socv1.png",
       "button": "Learn more here"
