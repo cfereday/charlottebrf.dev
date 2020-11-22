@@ -1,10 +1,10 @@
 {
   "items": [
     {
-      "title": "Try Hack Me",
-      "description": "Complete Beginner path (work in progress)",
-      "tech": "Linux, Web App Security, Network Security, Python, Bash",
-      "url": "https://github.com/cfereday/try-hack-me-complete-beginner",
+      "title": "Security News Dashboard",
+      "description": "Aggregates security news in a simple dashboard",
+      "tech": "JavaScript, Node",
+      "url": "https://github.com/cfereday/security-news-dashboard",
       "image": "/images/projects/securityv1.png",
       "button": "Checkout here"
     },
