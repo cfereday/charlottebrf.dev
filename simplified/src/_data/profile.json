@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "company": "Snyk",
+      "title": "Software Engineer",
+      "url": "https://snyk.io/",
+      "date": "February 2021 - Present",
+      "techStack": "TypeScript, Node, PostgreSQL, Vue",
+      "blurb": "Security Engineering R&D",
+      "stylingLeftOrRight": "js--fadeInRight"
+    },
+    {
       "company": "Tes Global Ltd",
       "title": "Software Engineer",
       "url": "https://engineering.tes.com",
@@ -56,3 +65,4 @@
     }
   ]
 }
+
