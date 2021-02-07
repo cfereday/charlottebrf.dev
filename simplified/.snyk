@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-ENGINEIO-1056749:
+    - '@11ty/eleventy > browser-sync > socket.io > engine.io':
+        reason: No patch available
+        expires: '2021-03-09T17:53:05.883Z'
+  SNYK-JS-GLOBPARENT-1016905:
+    - '@11ty/eleventy > chokidar > glob-parent':
+        reason: No patch available
+        expires: '2021-03-09T17:53:05.883Z'
+    - '@11ty/eleventy > fast-glob > glob-parent':
+        reason: No patch available
+        expires: '2021-03-09T17:53:05.883Z'
+    - '@11ty/eleventy > browser-sync > chokidar > glob-parent':
+        reason: No patch available
+        expires: '2021-03-09T17:53:05.883Z'
+    - '@11ty/eleventy > nunjucks > chokidar > glob-parent':
+        reason: No patch available
+        expires: '2021-03-09T17:53:05.883Z'
+patch: {}

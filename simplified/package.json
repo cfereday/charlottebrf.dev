@@ -5,7 +5,8 @@
   "main": ".eleventy.js",
   "scripts": {
     "start": "npx eleventy --serve",
-    "prod": "npx eleventy"
+    "prod": "npx eleventy",
+    "test": "snyk test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/cfereday/charlottebrf.dev#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0"
+  },
+  "devDependencies": {
+    "snyk": "^1.446.0"
   }
 }
