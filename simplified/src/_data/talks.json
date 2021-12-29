@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "WoSEC",
+      "description": "OWASP API security top 10 in the wild",
+      "tech": "API",
+      "url": "https://owasp.org/www-project-api-security/",
+      "image": "/images/talksAndBlogs/wosec.jpg",
+      "button": "Read more here"
+    },
+    {
       "title": "Node Girls & WoSEC",
       "description": "Authentication & Authorisation 101",
       "tech": "JavaScript, Node, Postgres, Bcrypt, JWT",
@@ -38,14 +46,6 @@
       "tech": "JavaScript",
       "url": "https://medium.com/@charlottebrf/level-up-with-javascript-412b4cb1e741",
       "image": "/images/talksAndBlogs/level-up-jsv1.png",
-      "button": "Read more here"
-    },
-    {
-      "title": "URI encoding",
-      "description": "Encoding sketched",
-      "tech": "Encoding",
-      "url": "https://medium.com/@charlottebrf/level-up-with-javascript-412b4cb1e741",
-      "image": "/images/talksAndBlogs/uri-encodingv1.png",
       "button": "Read more here"
     }
   ]
