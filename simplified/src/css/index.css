@@ -24,6 +24,8 @@ a:hover, a:active, a:focus {
 
 .fit-picture {
   border-radius: 50%;
+  width: 300px;
+  height: auto;
 }
 
 
