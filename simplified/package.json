@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/cfereday/charlottebrf.dev#readme",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1"
+    "@11ty/eleventy": "^1.0.2"
   },
   "devDependencies": {
     "snyk": "^1.446.0"
