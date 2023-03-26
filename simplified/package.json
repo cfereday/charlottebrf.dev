@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "11ty version of website",
   "main": ".eleventy.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "npx eleventy --serve",
-    "prod": "npx eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "prod": "npx @11ty/eleventy",
     "test": "snyk test"
   },
   "repository": {
