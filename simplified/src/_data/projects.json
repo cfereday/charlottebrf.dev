@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "LoC Digital Garden",
+      "description": "A ‘digital garden’ is a catalogue of exploratory ideas which will be refined and grow overtime.",
+      "tech": "TypeScript, NuxtJS",
+      "url": "https://github.com/LadiesOfCodeGroupSessions/loc-digital-garden",
+      "image": "/images/projects/digital-garden.png",
+      "button": "Checkout here"
+    },
+    {
       "title": "Security News Dashboard",
       "description": "Aggregates security news in a simple dashboard",
       "tech": "JavaScript, Node",
