@@ -8,8 +8,8 @@
 {% block content %}
 <section class="timeline">
   <div class="container">
-    {% for experience in profile.items %}
-    {% set profile = experience %}
+    {% for experience in experience.items %}
+    {% set experience = experience %}
     {% include "partials/timeline-item.html" %}
     {% endfor %}
   </div>

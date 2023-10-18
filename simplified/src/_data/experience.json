@@ -2,6 +2,15 @@
   "items": [
     {
       "company": "Snyk",
+      "title": "Senior Software Engineer",
+      "url": "https://snyk.io/",
+      "date": "October 2023 - Present",
+      "techStack": "TypeScript, Node, Kubernetes basics",
+      "blurb": "Security R&D division",
+      "stylingLeftOrRight": "js--fadeInRight"
+    },
+    {
+      "company": "Snyk",
       "title": "Software Engineer",
       "url": "https://snyk.io/",
       "date": "February 2021 - Present",
