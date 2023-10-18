@@ -5,7 +5,7 @@
       "title": "Senior Software Engineer",
       "url": "https://snyk.io/",
       "date": "October 2023 - Present",
-      "techStack": "TypeScript, Node, Kubernetes basics",
+      "techStack": "TypeScript, Node, K8s",
       "blurb": "Security R&D division",
       "stylingLeftOrRight": "js--fadeInRight"
     },
@@ -13,9 +13,9 @@
       "company": "Snyk",
       "title": "Software Engineer",
       "url": "https://snyk.io/",
-      "date": "February 2021 - Present",
-      "techStack": "TypeScript, Node, PostgreSQL, Vue, Python, Databricks",
-      "blurb": "Security R&D division",
+      "date": "February 2021 - September 2023",
+      "techStack": "TypeScript, Node, PostgreSQL, Vue, Python, Databricks, K8s, Terraform",
+      "blurb": "Security R&D division: Feature Lead for 5 projects",
       "stylingLeftOrRight": "js--fadeInRight"
     },
     {
