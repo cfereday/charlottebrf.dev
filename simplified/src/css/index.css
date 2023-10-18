@@ -57,6 +57,7 @@ a:hover, a:active, a:focus {
 .main-content {
   position: relative;
   min-height: 70vh;
+  text-align: center;
 }
 
 .space-evenly {
