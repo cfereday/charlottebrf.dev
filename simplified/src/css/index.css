@@ -146,7 +146,7 @@ a:hover, a:active, a:focus {
 
 .timeline::before {
   content: "";
-  background: #C5CAE9;
+  background: #8FBCBB;
   width: 5px;
   height: 95%;
   position: absolute;
@@ -212,6 +212,17 @@ a:hover, a:active, a:focus {
   background: #5E81AC;
   color: #ECEFF4;
   padding: 10px;
+}
+
+.timeline-title {
+  background: #5E81AC;
+  color: #ECEFF4;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.timeline-date {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
