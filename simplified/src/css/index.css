@@ -194,6 +194,7 @@ a:hover, a:active, a:focus {
   border-radius: 4px;
   background: #E5E9F0;
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+  text-align: left;
 }
 
 .timeline-img {
