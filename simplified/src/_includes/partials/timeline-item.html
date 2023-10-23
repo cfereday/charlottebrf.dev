@@ -1,11 +1,12 @@
 <div class="timeline-item">
   <div class="timeline-img"></div>
-  <div class="timeline-content {{ experience.stylingLeftOrRight }}">
-    <div class="date">
-      <p>{{ experience.date }}</p></div>
-    <h3 class="small-stack">{{ experience.title }}, <a href="{{ experience.url }}">{{ experience.company}}</a></h3>
-    <p>{{ experience.blurb }}</p>
-    <p class="italics-text small-stack">{{ experience.techStack }}</p>
+  <div class="timeline-content">
+    <div class="timeline-title">
+      <p>{{ experience.title }}, <a href="{{ experience.url }}">{{ experience.company}}</a></p>
+    </div>
+    <p class= "timeline-date italics-text"> {{ experience.date }}</p>
+    <p class="small-stack">{{ experience.blurb }}</p>
+    <p class="italics-text">{{ experience.techStack }}</p>
   </div>
 </div>
 
